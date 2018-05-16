@@ -28,7 +28,7 @@ Folgende Eigenschaften der Kamera waren ausschlaggebend für die Entscheidung de
 - Äußerst robuste und kompakte Verarbeitung 
 - USB 3.0 Schnittstelle 
 
-![IDS Ueye Kamera](doc/images/macosx.png)
+![IDS Ueye Kamera](doc/images/kamera.jpg)
 
 ### Scankopf
 
@@ -58,15 +58,15 @@ Das Schachbrettmuster wird während dem Kalibrierungsprozesses um die eigenen Ac
 jeweils eine Linie projizieren. Durch die Rotation erkennt der Scanner die Tiefenverhältnisse des Scanbereichs.
 
 ### Materialliste
-- IDS UI-3370CP Rev. 2:
-	Der Scanner wurde mit diesem Model entwickelt, jedoch funktioniert auch jede andere IDS Ueye Kamera.
-	Bei Modelen mit einer anderen Abmassung des Gehäusses muss der Scankopf angepasst werden.
+- IDS UI-3370CP Rev. 2
+	- Der Scanner wurde mit diesem Model entwickelt, jedoch funktioniert auch jede andere IDS Ueye Kamera. Bei Modellen mit einer anderen Abmaßung des Gehäuses muss der Scankopf angepasst werden.
 - 2 x Laser
 - 2 x Linsen
 - 2 x Laserhalterung
 - 2 x Schrittmotor
+- Schrauben
+- X-Träger
 - TODO
-
 
 ### Aufbau
 
@@ -91,13 +91,19 @@ TODO
 ### Scantisch
 TODO
 
-### Ramen
+### Rahmen
 TODO
 
 ## Änderungen der Software
 
 ### Kamera-Treiber
-TODO
+Um die IDS Ueye Kamera IDS Ueye Kamera in der Python Software Horus nutzen zu können wurden für dieses Projekt 
+eigene Wrapper mit Cython geschrieben. 
+Die Funktionalität der von IDS angebotenen C Funktionen wurden abstrahiert und vereinfacht.
+Cython ist eine Python ähnliche Programmiersprache, die nach C kompiliert wird. 
+Da die Standard Python Implementierung ebenfalls in C geschrieben ist, können C-Module in Python aufgerufen werden.
+Der Wrapper kann in folgendem Github-Repository gefunden werden [Cyueye](https://github.com/Schwub/cyueye).
+Genaue Information zu den Vorgenommenen Code-Änderungen finden sie in der Datei */doc/development/cyueye.md* in diesem Repository.
 
 ### Punktewolke generierung
 TODO
