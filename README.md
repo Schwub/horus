@@ -8,7 +8,7 @@ Dies ist ein Projekt der [Poliklinik für Zahnerhaltung und Parodontologie](http
 des LMU Klinikums unter der Leitung von [Herrn Prof. Karl-Heinz Kunzelmann](http://www.dent.med.uni-muenchen.de/~kkunzelm/htdocs/index.html).
 Das Projekt führt die außerordentliche Arbeit von [Jesús Arroyo Torrens](https://github.com/Jesus89) fort und erweitert den [Cyclop 3D-Scanner](https://github.com/LibreScanner/ciclop).
 Das Ziel der Erweiterung ist es eine Hochwertigere Kamera für die 3D-Scans zu integrieren und statt einer Rotation eine Lineare Bewegung der Objekte zu scannen.
-Die Scans der erweiterten Version war ursprünglich dafür gedacht, Aufnahmen von Zahnkauflächen zu erstellen, der Aufbau kann jedoch auch für andere Objekte im Bereich 
+Die Scans der erweiterten Version waren ursprünglich dafür gedacht, Aufnahmen von Zahnkauflächen zu erstellen, der Aufbau kann jedoch auch für andere Objekte im Bereich 
 zwischen 1mm^2 bis 10mm^2 genutzt werden.
 
 ![Erweiterter Cyclop Scanner](doc/images/aufbau.jpg)
@@ -29,6 +29,12 @@ Folgende Eigenschaften der Kamera waren ausschlaggebend für die Entscheidung de
 - USB 3.0 Schnittstelle 
 
 ![IDS Ueye Kamera](doc/images/kamera.jpg)
+
+#### Objektiv 
+
+Als Objektiv dient ein Tamron 1:16 25mm, d=25,5 C-Mount Objektiv
+
+![Tamron Objektiv](doc/images/tamron.jpg)
 
 ### Scankopf
 
@@ -60,6 +66,7 @@ jeweils eine Linie projizieren. Durch die Rotation erkennt der Scanner die Tiefe
 ### Materialliste
 - IDS UI-3370CP Rev. 2
 	- Der Scanner wurde mit diesem Model entwickelt, jedoch funktioniert auch jede andere IDS Ueye Kamera. Bei Modellen mit einer anderen Abmaßung des Gehäuses muss der Scankopf angepasst werden.
+	- C-Mount Objektiv 1:16, 25mm, d=25 (z.B.: von  Tamron)
 - 2 x Laser
 - 2 x Linsen
 - 2 x Laserhalterung
