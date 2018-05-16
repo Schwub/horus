@@ -1,87 +1,112 @@
 # Horus
 
-[![R&D](https://img.shields.io/badge/-R%26D-brightgreen.svg)](https://github.com/bqlabs/horus)
-[![License](http://img.shields.io/:license-gpl-blue.svg)](http://opensource.org/licenses/GPL-2.0)
-[![Documentation Status](https://readthedocs.org/projects/horus/badge/?version=release-0.2)](http://horus.readthedocs.io/en/release-0.2/?badge=release-0.2)
+# Work in Progress !!
+# English version comming soon !!
 
-Horus is a general solution for 3D laser scanning. It provides graphic user interfaces for connection, configuration, control, calibration and scanning with Open Source [Ciclop 3D Scanner](https://github.com/bqlabs/ciclop).
+## Einleitung
+Dies ist ein Projekt der [Poliklinik für Zahnerhaltung und Parodontologie](http://www.klinikum.uni-muenchen.de/Poliklinik-fuer-Zahnerhaltung-und-Parodontologie/de/index.html)
+des LMU Klinikums unter der Leitung von [Herrn Prof. Karl-Heinz Kunzelmann](http://www.dent.med.uni-muenchen.de/~kkunzelm/htdocs/index.html).
+Das Projekt führt die außerordentliche Arbeit von [Jesús Arroyo Torrens](https://github.com/Jesus89) fort und erweitert den [Cyclop 3D-Scanner](https://github.com/LibreScanner/ciclop).
+Das Ziel der Erweiterung ist es eine Hochwertigere Kamera für die 3D-Scans zu integrieren und statt einer Rotation eine Lineare Bewegung der Objekte zu scannen.
+Die Scans der erweiterten Version war ursprünglich dafür gedacht, Aufnahmen von Zahnkauflächen zu erstellen, der Aufbau kann jedoch auch für andere Objekte im Bereich 
+zwischen 1mm^2 bis 10mm^2 genutzt werden.
 
-This is a research project to explore the 3D laser scan with free tools. Feel free to use it for experiments, modify and adapt it to new devices and contribute new features or ideas.
+![Erweiterter Cyclop Scanner](doc/images/aufbau.jpg)
 
-This project has been developed in [Python](https://www.python.org/) language and it is distributed under [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html) license.
-
-## Installation
-
-#### Supported
-
-###### Current version: 0.2rc1
-
-| Logo              | Name     | Instructions                        |
-|:-----------------:|:--------:|:-----------------------------------:|
-| ![][ubuntu-logo]  | Ubuntu   | [[en]](http://horus.readthedocs.io/en/release-0.2/source/installation/ubuntu.html)  [[es]](http://horus.readthedocs.io/es/release-0.2/source/installation/ubuntu.html) |
-| ![][windows-logo] | Windows  |  [[en]](http://horus.readthedocs.io/en/release-0.2/source/installation/windows.html)  [[es]](http://horus.readthedocs.io/es/release-0.2/source/installation/windows.html) |
-| ![][macosx-logo]  | Mac OS X |  [[en]](http://horus.readthedocs.io/en/release-0.2/source/installation/macosx.html)  [[es]](http://horus.readthedocs.io/es/release-0.2/source/installation/macosx.html) |
-
-#### Experimental
-
-**Horus 0.2 is not supported for the following distributions**.
-
-However, anyone can test it and contribute to its support.
-
-| Logo               | Name      | Instructions                          |
-|:------------------:|:---------:|:-------------------------------------:|
-| ![][debian-logo]   | Debian    | [[en]](doc/installation/debian.md)    |
-| ![][fedora-logo]   | Fedora    | [[en]](doc/installation/fedora.md)    |
-
-## Documentation
-
-Here you will find the official documentation of the application:
-
-* [User's manual](http://horus.readthedocs.io/en/release-0.2/) [[es](http://horus.readthedocs.io/es/release-0.2/)]
-
-And also all the scientific background of the project in nice Jupyter notebooks:
-
-* [Notebooks](http://nbviewer.jupyter.org/github/Jesus89/3DScanScience/tree/master/notebooks/)
-* [Repository](https://github.com/Jesus89/3DScanScience)
-
-## Development
-
-Horus is an Open Source Project. Anyone has the freedom to use, modify, share and distribute this software. If you want to:
-* run the source code
-* make your own modifications
-* contribute to the project
-* build packages
-
-follow the next instructions
-
-#### GNU/Linux
-
-Horus has been developed using [Ubuntu Gnome](http://ubuntugnome.org/), that is based on [Debian](https://www.debian.org/), like [Raspbian](https://www.raspbian.org/), [Mint](http://linuxmint.com/), etc. All instructions provided in this section probably work for most of these systems.
-
-* [Ubuntu development](doc/development/ubuntu.md)
-
-NOTE: *deb* and *exe* packages can be generated in *debian like* systems
-
-#### Mac OS X
-
-* [Darwin development](doc/development/darwin.md)
-
-NOTE: *dmg* packages only can be generated in Mac OS X
+Beispiel Scan eines Zahnes:
+![Beispiel Scan eines Zahnes](doc/images/zahn.png)
 
 
-More interest links are shown below:
+## Änderugen an der Hardware
 
-* [Presentation](http://diwo.bq.com/en/presentacion-ciclop-horus/) [[es](http://diwo.bq.com/presentacion-ciclop-horus/)]
-* [3D Design](http://diwo.bq.com/en/ciclop-released/) [[es](http://diwo.bq.com/ciclop-released/)]
-* [Electronics](http://diwo.bq.com/en/zum-scan-released/) [[es](http://diwo.bq.com/zum-scan-released/)]
-* [Firmware](http://diwo.bq.com/en/horus-fw-released/) [[es](http://diwo.bq.com/horus-fw-released/)]
-* [Software](http://diwo.bq.com/en/horus-released/) [[es](http://diwo.bq.com/horus-released/)]
-* [Product documentation](http://diwo.bq.com/en/documentation-ciclop-and-horus/) [[es](http://diwo.bq.com/documentation-ciclop-and-horus/)]
-* [Google group](https://groups.google.com/forum/?hl=en#!forum/ciclop-3d-scanner)
+### Kamera
+Die Original Logitech Kamera wurde durch eine [UI-3160CP Rev. 2.1](https://en.ids-imaging.com/store/ui-3160cp-rev-2-1.html) der Firma [IDS](https://en.ids-imaging.com/home.html) ersetzt. 
+Folgende Eigenschaften der Kamera waren ausschlaggebend für die Entscheidung des Modells:
+- Eine Auflösung von 1920x1200 Pixeln
+- Bis zu 165 Bilder pro Sekunde bei voller Auflösung
+- Kompatibel mit Windows und GNU/Linux Betriebssystemen
+- Äußerst robuste und kompakte Verarbeitung 
+- USB 3.0 Schnittstelle 
 
-[ubuntu-logo]: doc/images/ubuntu.png
-[windows-logo]: doc/images/windows.png
-[macosx-logo]: doc/images/macosx.png
-[debian-logo]: doc/images/debian.png
-[raspbian-logo]: doc/images/raspbian.png
-[fedora-logo]: doc/images/fedora.png
+![IDS Ueye Kamera](doc/images/macosx.png)
+
+### Scankopf
+
+![Scankopf](doc/images/scankopf.jpg)
+
+Die Halterung des Scankopfes wurde mit einem 3D-Drucker erstellt.
+Die notwendigen Files können im Verzeichnis [print_files](/print_files) gefunden werden.
+Der Scankopf besteht aus einer Halterung für die IDS Kamera und zwei Haltern für die Laser.
+Für die Laser das Model *LASERNAME* verwendet. Die Halterungen *Haltername* fixieren die Laser und 
+sorgen für die Wärmeableitung. Die Laser bieten eine sehr feine grüne Laserlinie, diese wird weiter fokussiert
+durch Linsen *Linsenname*. Der Winkel der Laser können frei justiert werden. 
+TODO: Laser einstellen.
+
+### Scantisch
+
+![Scantisch](doc/images/scantisch.jpg)
+
+Der Scantisch besteht aus einer Schiene und einem kleinen Tisch, der über einen Riemen von einem Schrittmotor bewegt wird.
+
+### Kalibriertisch
+
+![Kalibriertisch](doc/images/kalibriertisch.jpg)
+
+Der Kalibrietisch wird benötigt um die Parameter des Scanner zu setzten. 
+Der Kalibriertisch wird mittig auf dem Scantisch angebracht.
+Das Schachbrettmuster wird während dem Kalibrierungsprozesses um die eigenen Achse gedreht, während die Laser
+jeweils eine Linie projizieren. Durch die Rotation erkennt der Scanner die Tiefenverhältnisse des Scanbereichs.
+
+### Materialliste
+- IDS UI-3370CP Rev. 2:
+	Der Scanner wurde mit diesem Model entwickelt, jedoch funktioniert auch jede andere IDS Ueye Kamera.
+	Bei Modelen mit einer anderen Abmassung des Gehäusses muss der Scankopf angepasst werden.
+- 2 x Laser
+- 2 x Linsen
+- 2 x Laserhalterung
+- 2 x Schrittmotor
+- TODO
+
+
+### Aufbau
+
+#### Scankopf 
+TODO
+
+#### Scankopf drucken
+TODO
+
+#### Kamera montieren
+TODO
+
+#### Linsen anbringen
+TODO
+
+#### Halterung montieren
+TODO
+
+#### Laser anbringen
+TODO
+
+### Scantisch
+TODO
+
+### Ramen
+TODO
+
+## Änderungen der Software
+
+### Kamera-Treiber
+TODO
+
+### Punktewolke generierung
+TODO
+
+### Scantisch Steuerung
+TODO
+
+### Instalation der Software
+TODO
+
+## Scanprozess
+TODO
