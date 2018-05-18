@@ -153,13 +153,11 @@ TODO
 ## Änderungen der Software
 
 ### Kamera-Treiber
-Um die IDS Ueye Kamera IDS Ueye Kamera in der Python Software Horus nutzen zu können wurden für dieses Projekt
-eigene Wrapper mit Cython geschrieben.
-Die Funktionalität der von IDS angebotenen C Funktionen wurden abstrahiert und vereinfacht.
-Cython ist eine Python ähnliche Programmiersprache, die nach C kompiliert wird.
-Da die Standard Python Implementierung ebenfalls in C geschrieben ist, können C-Module in Python aufgerufen werden.
-Der Wrapper kann in folgendem Github-Repository gefunden werden [Cyueye](https://github.com/Schwub/cyueye).
-Genaue Information zu den vorgenommenen Code-Änderungen finden sie in der Datei */doc/development/cyueye.md* in diesem Repository.
+Um die IDS Ueye Kamera in der Python Software Horus nutzen zu können, wurden für dieses Projekt eigene Wrapper mit Cython geschrieben. Die Funktionalität der von IDS angebotenen C Funktionen wurden abstrahiert und vereinfacht.
+
+Cython ist eine Python ähnliche Programmiersprache, die nach C kompiliert wird. Da die Standard Python Implementierung ebenfalls in C geschrieben ist, können C-Module in Python aufgerufen werden.
+
+Der Wrapper kann in folgendem Github-Repository gefunden werden [Cyueye](https://github.com/Schwub/cyueye). Genaue Information zu den vorgenommenen Code-Änderungen finden sie in der Datei */doc/development/cyueye.md* in diesem Repository.
 
 ### Punktewolke generierung
 TODO
