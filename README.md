@@ -49,9 +49,8 @@ Anstelle der ursprünglich verwendeten Webcam Logitech C270 wurde durch eine Kam
 
 Für die Entscheidung, ein IDS Produkt zu wählen, war ausschlaggebend:
 
-- Industriequalität mit professionellem Langzeitsupport
 - Kompatibel mit Windows und GNU/Linux Betriebssystemen
-- Robuste und kompakte Verarbeitung
+- Industriequalität mit professionellem Langzeitsupport
 
 Das konkret gewählte Kameramodell [UI-3160CP Rev. 2.1](https://en.ids-imaging.com/store/ui-3160cp-rev-2-1.html) hat u.a. folgende Eigenschaften
 
@@ -72,9 +71,10 @@ Als Objektiv dient ein Tamron 1:16 25mm, d=25,5 C-Mount Objektiv
 
 ![Scankopf](doc/images/scankopf.jpg)
 
-Die Halterung des Scankopfes wurde mit einem 3D-Drucker erstellt.
-Die notwendigen Files können im Verzeichnis [files](/files) gefunden werden.
-Der Scankopf besteht aus einer Halterung für die IDS Kamera und zwei Haltern für die Laser.
+Die Halterung des Scankopfes wurde mit einem 3D-Drucker erstellt. Die CAD-Files (Solidworks 2018) und STL Files befinden sich in dem Ordner [files](/files).
+
+Der Scankopf besteht aus einer Halterung für die IDS Kamera und zwei Haltern für die Laserdioden, die in einen passenden Kühlkörper montiert sind. Die Lasersdiodenhalter lassen drehen, so dass die Laserlinie auf auf das Objekt justiert werden kann.
+
 Für die Laser das Model *LASERNAME* verwendet. Die Halterungen *Haltername* fixieren die Laser und
 sorgen für die Wärmeableitung. Die Laser bieten eine sehr feine grüne Laserlinie, diese wird weiter fokussiert
 durch Linsen *Linsenname*. Der Winkel der Laser können frei justiert werden.
@@ -96,16 +96,33 @@ Das Schachbrettmuster wird während dem Kalibrierungsprozesses um die eigenen Ac
 jeweils eine Linie projizieren. Durch die Rotation erkennt der Scanner die Tiefenverhältnisse des Scanbereichs.
 
 ### Materialliste
-- IDS UI-3370CP Rev. 2
-	- Der Scanner wurde mit diesem Model entwickelt, jedoch funktioniert auch jede andere IDS Ueye Kamera. Bei Modellen mit einer anderen Abmaßung des Gehäuses muss der Scankopf angepasst werden.
-	- C-Mount Objektiv 1:16, 25mm, d=25 (z.B.: von  Tamron)
-- 2 x Laser
-- 2 x Linsen
-- 2 x Laserhalterung
-- 2 x Schrittmotor
-- Schrauben
-- X-Träger
-- TODO
+
+[]Bill of materials (BOM)](/files/BOM-Laserscanner.ods)
+
+Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 2017
+------------ | -------------| -------------| -------------| -------------
+2|Linse zur Fokussierung der Laserdiode, Achromat, D=25.4mm, F=300mm|AC254-300-A|Thorlabs|90 €
+1|Kamera IDS, UI-3160CP-M-GL Rev.2|AB00687|IDS|720 €
+1|USB3 Standardkabel 3m|AD00142|IDS|30 €
+1|Objektiv, Tamron, M118FM25, 25 mm, C-Mount, Manuell Fokus/Iris mit Lock, 2 Megapixel|AE.0051.2.10400.00|IDS|180 €
+2|GREEN DPSS LASER MODULES|CW532-001L |Roitner Lasertechnik|48 €
+2|Heat Sink|SQ50 |Roitner Lasertechnik|22 €
+2|Laser Power Supply 3V|LPS31 |Roitner Lasertechnik|24 €
+1|Lineareinheit M200 mit 210 mm Hub|931-0011|Multec GmbH|200 €
+5|Aluprofil 30x30 B-Typ Nut 8 Länge 290 mm|19617|Motedis GmbH|10 €
+1|Hammermutter B-Typ Nut 8, Größe:M4, 1 Beutel (a 100 Stück)|096H08415|Motedis GmbH|13 €
+1|Winkel 30 B-Typ Nut 8, mit Befestigungssatz und Abdeckkappe, 1 Beutel (a 10 Stück)|093W303N08|Motedis GmbH|16 €
+1|NEMA17 12.7Ncm, Titan-Slimline Stepper Motor, D shaft |nema17-127n-titan |youprintin3d.de|16 €
+
+
+### Bezugsquellen
+
+Thorlabs GmbH, Hans-Böckler-Strasse 6, D-85221 Dachau, Germany
+IDS Imaging Development Systems GmbH, Dimbacher Str. 6-8, D-74182 Obersulm, Germany
+Roithner Lasertechnik GmbH, Wiedner Hauptstrasse 76, A-1040 Wien, Österreich
+Motedis GmbH, Stöckerweg 122, D-66806 Ensdorf, Germany
+Multec GmbH, Hauptstr. 11, 88377 Riedhausen, Germany
+You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe
 
 ### Aufbau
 
@@ -142,7 +159,7 @@ Die Funktionalität der von IDS angebotenen C Funktionen wurden abstrahiert und 
 Cython ist eine Python ähnliche Programmiersprache, die nach C kompiliert wird.
 Da die Standard Python Implementierung ebenfalls in C geschrieben ist, können C-Module in Python aufgerufen werden.
 Der Wrapper kann in folgendem Github-Repository gefunden werden [Cyueye](https://github.com/Schwub/cyueye).
-Genaue Information zu den Vorgenommenen Code-Änderungen finden sie in der Datei */doc/development/cyueye.md* in diesem Repository.
+Genaue Information zu den vorgenommenen Code-Änderungen finden sie in der Datei */doc/development/cyueye.md* in diesem Repository.
 
 ### Punktewolke generierung
 TODO
@@ -150,7 +167,7 @@ TODO
 ### Scantisch Steuerung
 TODO
 
-### Instalation der Software
+### Installation der Software
 TODO
 
 ## Scanprozess
