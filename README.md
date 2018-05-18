@@ -73,7 +73,7 @@ Als Objektiv dient ein Tamron 1:16 25mm, d=25,5 C-Mount Objektiv
 ![Scankopf](doc/images/scankopf.jpg)
 
 Die Halterung des Scankopfes wurde mit einem 3D-Drucker erstellt.
-Die notwendigen Files können im Verzeichnis [print_files](/print_files) gefunden werden.
+Die notwendigen Files können im Verzeichnis [files](/files) gefunden werden.
 Der Scankopf besteht aus einer Halterung für die IDS Kamera und zwei Haltern für die Laser.
 Für die Laser das Model *LASERNAME* verwendet. Die Halterungen *Haltername* fixieren die Laser und
 sorgen für die Wärmeableitung. Die Laser bieten eine sehr feine grüne Laserlinie, diese wird weiter fokussiert
