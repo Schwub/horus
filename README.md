@@ -97,7 +97,7 @@ jeweils eine Linie projizieren. Durch die Rotation erkennt der Scanner die Tiefe
 
 ### Materialliste
 
-[]Bill of materials (BOM)](/files/BOM-Laserscanner.ods)
+[Bill of materials (BOM)](/files/BOM-Laserscanner.ods)
 
 Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 2017
 ------------ | -------------| -------------| -------------| -------------
@@ -117,12 +117,12 @@ Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 20
 
 ### Bezugsquellen
 
-Thorlabs GmbH, Hans-Böckler-Strasse 6, D-85221 Dachau, Germany
-IDS Imaging Development Systems GmbH, Dimbacher Str. 6-8, D-74182 Obersulm, Germany
-Roithner Lasertechnik GmbH, Wiedner Hauptstrasse 76, A-1040 Wien, Österreich
-Motedis GmbH, Stöckerweg 122, D-66806 Ensdorf, Germany
-Multec GmbH, Hauptstr. 11, 88377 Riedhausen, Germany
-You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe
+- Thorlabs GmbH, Hans-Böckler-Strasse 6, D-85221 Dachau, Germany
+- IDS Imaging Development Systems GmbH, Dimbacher Str. 6-8, D-74182 Obersulm, Germany
+- Roithner Lasertechnik GmbH, Wiedner Hauptstrasse 76, A-1040 Wien, Österreich
+- Motedis GmbH, Stöckerweg 122, D-66806 Ensdorf, Germany
+- Multec GmbH, Hauptstr. 11, 88377 Riedhausen, Germany
+- You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe
 
 ### Aufbau
 
