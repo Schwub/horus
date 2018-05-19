@@ -112,7 +112,7 @@ Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 20
 1|Hammermutter B-Typ Nut 8, Größe:M4, 1 Beutel (a 100 Stück)|096H08415|Motedis GmbH|13 €
 1|Winkel 30 B-Typ Nut 8, mit Befestigungssatz und Abdeckkappe, 1 Beutel (a 10 Stück)|093W303N08|Motedis GmbH|16 €
 1|NEMA17 12.7Ncm, Titan-Slimline Stepper Motor, D shaft |nema17-127n-titan |youprintin3d.de|16 €
-1|ZUM Scan Shield für Ciclop 3D-Scanner| RBS11414 | www.roboter-bausatz.de, anzado GmbH, Saarbrücken | 15 €
+1|ZUM Scan Shield für Ciclop 3D-Scanner| RBS11414 | anzado GmbH, Saarbrücken | 15 €
 1|Arduino UNO Clone| ---  | ---  | 5 €
 
 
@@ -124,7 +124,7 @@ Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 20
 - Motedis GmbH, Stöckerweg 122, D-66806 Ensdorf, Germany
 - Multec GmbH, Hauptstr. 11, 88377 Riedhausen, Germany
 - You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe, Germany
-- www.roboter-bausatz.de, Römerstadt 2-4, 66121 Saarbrücken, Germany
+- anzado GmbH, Römerstadt 2-4, 66121 Saarbrücken, Germany
 
 ### Aufbau
 
