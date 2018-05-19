@@ -35,7 +35,7 @@ Unsere Arbeitsgruppe beschäftigt sich seit fast 30 Jahren mit der Entwicklung u
 
 Die Flexibilität der Scannersoftware von [Jesús Arroyo Torrens](https://github.com/Jesus89) erlaubt es jedoch, durch den Einsatz anderer Objektive, Kameras und Scannerrahmen, 3D-Scanner für fast alle Bedürfnisse mit sehr überschaubarem Aufwand zu realisieren.
 
-In dieser Dokumentation wird ein einfacher Scanner beschrieben, auf dessen Grundlage wir die Software entwickelt und getestet haben. Das Prinzip dieses Scanners entspricht weitgehend dem mechanischen Aufbau unseres Dentalscanners ([A New Optical 3-D Device for the Detection of Wear, Journal of Dental Research 76(11):1799-807, 1997](DOI10.1177/00220345970760111201)). Der einfache Aufbau sollte nur als Träger für die Laser und Kameras dienen und war nie für Routinemessungen vorgesehen. Der Aufbau ist jedoch so zuverlässig und stabil, dass wir diesen einfachen 3D-Scanner inzwischen auch für wissenschaftliche Vermessungen verwenden. Der abgebildete Aufbau kostet ca. 800 - 1000 €. Die Komponenten können einfach bestellt werden. Für den Aufbau sind nur wenig Werkzeuge erforderlich. Einzelne Komponenten wurden mit einem 3D Drucker hergestellt. Nicht dargestellt ist ein 2-Achsen-Drehtisch für die Probenaufnahme, da die Software für dessen Steuerung noch nicht vollständig implementiert wurde.
+In dieser Dokumentation wird ein einfacher Scanner beschrieben, auf dessen Grundlage wir die Software entwickelt und getestet haben. Das Prinzip dieses Scanners entspricht weitgehend dem mechanischen Aufbau unseres Dentalscanners ([A New Optical 3-D Device for the Detection of Wear, Journal of Dental Research 76(11):1799-807, 1997](DOI10.1177/00220345970760111201)). Der einfache Aufbau sollte nur als Träger für die Laser und Kameras dienen und war nie für Routinemessungen vorgesehen. Der Aufbau ist jedoch so zuverlässig und stabil, dass wir diesen einfachen 3D-Scanner inzwischen auch für wissenschaftliche Vermessungen verwenden. Der abgebildete Aufbau kostet je nach Qualität der verwendeten Komponenten ca. 1000 - 1400 €. Die hier genannten Komponenten können einfach bestellt werden. Für den Aufbau sind nur wenig Werkzeuge erforderlich. Einzelne Teile wurden mit einem 3D Drucker hergestellt. Nicht dargestellt ist ein 2-Achsen-Drehtisch für die Probenaufnahme, da die Software für dessen Steuerung noch nicht vollständig implementiert wurde. Als Steuerelektronik wurde ein Arduino Uno Microcontroller sowie ein ZUM Shield Clone (www.roboter-bausatz.de) verwendet. Das entspricht der Elektronik, die mit dem BQ Ciclop 3D-Scanner ausgeliefert wird.
 
 ![Erweiterter Cyclop Scanner](doc/images/aufbau.jpg)
 
@@ -45,7 +45,7 @@ Dieses Beispiel zeigt einen der ersten Scans eines Zahnes:
 ## Hardware
 
 ### Kamera
-Anstelle der ursprünglich verwendeten Webcam Logitech C270 wurde durch eine Kamera mit C-Mount-Adapter verwendet. Die Wahl fiel auf ein Produkt der Firma [IDS](https://en.ids-imaging.com/home.html).
+Anstelle der ursprünglich verwendeten Webcam Logitech C270 wurde eine Kamera mit C-Mount-Adapter verwendet. Die Wahl fiel auf ein Produkt der Firma [IDS](https://en.ids-imaging.com/home.html).
 
 Für die Entscheidung, ein IDS Produkt zu wählen, war ausschlaggebend:
 
@@ -63,7 +63,7 @@ Im Prinzip sollte man jedoch jede IDS Kamera verwenden können, die von der IDS 
 
 #### Objektiv
 
-Als Objektiv dient ein Tamron 1:16 25mm, d=25,5 C-Mount Objektiv
+Als Objektiv dient ein Tamron Objektiv (f/1.6-16, Focal Length 25mm, C-type lens mount, Type: AE.0051.2.10400.00, IDS).
 
 ![Tamron Objektiv](doc/images/tamron.jpg)
 
@@ -75,16 +75,15 @@ Die Halterung des Scankopfes wurde mit einem 3D-Drucker erstellt. Die CAD-Files 
 
 Der Scankopf besteht aus einer Halterung für die IDS Kamera und zwei Haltern für die Laserdioden, die in einen passenden Kühlkörper montiert sind. Die Lasersdiodenhalter lassen drehen, so dass die Laserlinie auf auf das Objekt justiert werden kann.
 
-Für die Laser das Model *LASERNAME* verwendet. Die Halterungen *Haltername* fixieren die Laser und
-sorgen für die Wärmeableitung. Die Laser bieten eine sehr feine grüne Laserlinie, diese wird weiter fokussiert
-durch Linsen *Linsenname*. Der Winkel der Laser können frei justiert werden.
+Für die Erzeugung der Laserlinien  wurde je ein Lasermodel CW532-001L (Roithner Lasertechnik) mit Zylinderlinse verwendet. Die Lasermodule wurden mit einem Kühlkörper SQ50 (Roithner Lasertechnik) am Scankopf befestigt. Die von dem Lasermodul erzeugte Laserlinie war für unsere Makrovermessungen zu breit und wurde deshalb mit einer achromatischen Sammellinse zusätzlich fokussiert. Der Abstand zwischen den beiden Laserdioden und der Kamera ist aktuell fest vorgegeben, der Winkel der Laserlinien kann im Rahmen der Schärfentiefe des Kameraobjektivs und der achromatischen Sammellinse frei eingestellt werden (was Einfluss auf den Triangulationswinkel hat).
+
 TODO: Laser einstellen.
 
 ### Scantisch
 
 ![Scantisch](doc/images/scantisch.jpg)
 
-Der Scantisch besteht aus einer Schiene und einem kleinen Tisch, der über einen Riemen von einem Schrittmotor bewegt wird.
+Der Scantisch besteht aus einer einfachen Linearführung mit Profilschiene, die über einen Zahnriemen von einem NEMA 17 Schrittmotor positioniert wird. Auf dem Wagen der Linearführung können unterschiedliche Probenhalter montiert werden, aktuell ist auf den Bildern eine Alu-Platte als Probentisch zu sehen, die mit der Linearführung mitgeliefert worden war.
 
 ### Kalibriertisch
 
@@ -113,6 +112,8 @@ Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 20
 1|Hammermutter B-Typ Nut 8, Größe:M4, 1 Beutel (a 100 Stück)|096H08415|Motedis GmbH|13 €
 1|Winkel 30 B-Typ Nut 8, mit Befestigungssatz und Abdeckkappe, 1 Beutel (a 10 Stück)|093W303N08|Motedis GmbH|16 €
 1|NEMA17 12.7Ncm, Titan-Slimline Stepper Motor, D shaft |nema17-127n-titan |youprintin3d.de|16 €
+1|ZUM Scan Shield für Ciclop 3D-Scanner| RBS11414 | www.roboter-bausatz.de, anzado GmbH, Saarbrücken | 15 €
+1|Arduino UNO Clone| ---  | ---  | 5 €
 
 
 ### Bezugsquellen
@@ -122,7 +123,8 @@ Anzahl|Beschreibung|Artikelnummer|Bezugsquelle|Kosten in Euro (circa), Stand: 20
 - Roithner Lasertechnik GmbH, Wiedner Hauptstrasse 76, A-1040 Wien, Österreich
 - Motedis GmbH, Stöckerweg 122, D-66806 Ensdorf, Germany
 - Multec GmbH, Hauptstr. 11, 88377 Riedhausen, Germany
-- You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe
+- You-Print-In-3D, Evgenia Deinzer, Stephanienstr. 55, 76133 Karlsruhe, Germany
+- www.roboter-bausatz.de, Römerstadt 2-4, 66121 Saarbrücken, Germany
 
 ### Aufbau
 
@@ -170,3 +172,7 @@ TODO
 
 ## Scanprozess
 TODO
+
+# Acknowledgement
+
+Wir möchten uns bei Hr. Martin Lotz bedanken, der die Konstruktionszeichnungen erstellt hat.
