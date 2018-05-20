@@ -45,7 +45,7 @@ Dieses Beispiel zeigt einen der ersten Scans eines Zahnes:
 ## Hardware
 
 ### Kamera
-Anstelle der ursprünglich verwendeten Webcam Logitech C270 wurde eine Kamera mit C-Mount-Adapter verwendet. Die Wahl fiel auf ein Produkt der Firma [IDS](https://en.ids-imaging.com/home.html).
+Anstelle der ursprünglich verwendeten Webcam Logitech C270 wurde eine Kamera mit C-Mount-Adapter verwendet. Durch den C-Mount-Adapter ist es möglich, Objektive mit unterschiedlicher Brennweite, manuellem Fokus und manueller Blendeneinstellung zu verwenden, was es wiederum erlaubt, den Messbereich individuell an die jeweiligen Bedürfnisse anzupassen. Die Wahl für die Kamera fiel auf ein Produkt der Firma [IDS](https://en.ids-imaging.com/home.html).
 
 Für die Entscheidung, ein IDS Produkt zu wählen, war ausschlaggebend:
 
