@@ -28,9 +28,6 @@ class PointCloudGeneration(object):
         c, s = np.cos(-theta), np.sin(-theta)
         Rz = np.matrix([[c, -s, 0], [s, c, 0], [0, 0, 1]])
         Xw = Rz * Xwo
-        # Check Y-Axxis
-        Xwo[1] += (theta * 15 * 1.25)
-        return np.array(Xwo)
         # Return point cloud
         if Xw.size > 0:
             return np.array(Xw)
