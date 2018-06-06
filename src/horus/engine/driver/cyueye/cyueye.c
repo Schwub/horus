@@ -534,8 +534,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__horus__engine__driver__cyueye__cyueye
-#define __PYX_HAVE_API__horus__engine__driver__cyueye__cyueye
+#define __PYX_HAVE__src__cyueye
+#define __PYX_HAVE_API__src__cyueye
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -773,7 +773,7 @@ static const char *__pyx_f[] = {
   "type.pxd",
 };
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":743
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":743
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -782,7 +782,7 @@ static const char *__pyx_f[] = {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":744
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":744
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -791,7 +791,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":745
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":745
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -800,7 +800,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":746
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":746
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -809,7 +809,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":750
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":750
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -818,7 +818,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":751
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":751
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -827,7 +827,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":752
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":752
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -836,7 +836,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":753
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -845,7 +845,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":757
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":757
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -854,7 +854,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":758
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":758
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -863,7 +863,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":767
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":767
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -872,7 +872,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":768
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":768
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -881,7 +881,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":769
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":769
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -890,7 +890,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":771
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":771
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -899,7 +899,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":772
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -908,7 +908,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":773
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":773
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -917,7 +917,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":775
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -926,7 +926,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":776
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -935,7 +935,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -944,7 +944,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":779
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -953,7 +953,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":780
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":780
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -987,9 +987,9 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam;
+struct __pyx_obj_3src_6cyueye_Cam;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":782
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":782
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -998,7 +998,7 @@ struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":783
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1007,7 +1007,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":784
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1016,7 +1016,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1025,14 +1025,14 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":91
+/* "src/cyueye.pyx":91
  *     int is_SetSaturation(unsigned int hcam, int ChromU, int ChromV)
  * 
  * cdef class Cam:             # <<<<<<<<<<<<<<
  *     cdef:
  *         unsigned int hCam
  */
-struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam {
+struct __pyx_obj_3src_6cyueye_Cam {
   PyObject_HEAD
   unsigned int hCam;
   int pid;
@@ -1597,12 +1597,12 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 static CYTHON_INLINE int __pyx_f_5numpy_import_array(void); /*proto*/
 
-/* Module declarations from 'horus.engine.driver.cyueye.cyueye' */
-static PyTypeObject *__pyx_ptype_5horus_6engine_6driver_6cyueye_6cyueye_Cam = 0;
-#define __Pyx_MODULE_NAME "horus.engine.driver.cyueye.cyueye"
-int __pyx_module_is_main_horus__engine__driver__cyueye__cyueye = 0;
+/* Module declarations from 'src.cyueye' */
+static PyTypeObject *__pyx_ptype_3src_6cyueye_Cam = 0;
+#define __Pyx_MODULE_NAME "src.cyueye"
+int __pyx_module_is_main_src__cyueye = 0;
 
-/* Implementation of 'horus.engine.driver.cyueye.cyueye' */
+/* Implementation of 'src.cyueye' */
 static PyObject *__pyx_builtin_print;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
@@ -1638,6 +1638,7 @@ static const char __pyx_k_reduce_ex[] = "__reduce_ex__";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_cyueye_pyx[] = "cyueye.pyx";
 static const char __pyx_k_set_format[] = "set_format";
+static const char __pyx_k_src_cyueye[] = "src.cyueye";
 static const char __pyx_k_ImportError[] = "ImportError";
 static const char __pyx_k_bgr8_packed[] = "bgr8_packed";
 static const char __pyx_k_displaymode[] = "displaymode";
@@ -1660,9 +1661,12 @@ static const char __pyx_k_Status_exit_camera[] = "Status exit_camera: ";
 static const char __pyx_k_Status_init_Camera[] = "Status init_Camera: ";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_color_mode_options[] = "color_mode_options";
+static const char __pyx_k_Status_set_exposure[] = "Status set_exposure: ";
+static const char __pyx_k_Status_set_framerate[] = "Status set_framerate: ";
 static const char __pyx_k_Status_set_image_mem[] = "Status set_image_mem: ";
 static const char __pyx_k_Status_free_image_mem[] = "Status free_image_mem: ";
 static const char __pyx_k_Status_set_color_mode[] = "Status set_color_mode: ";
+static const char __pyx_k_Status_set_saturation[] = "Status set_saturation: ";
 static const char __pyx_k_get_supported_formats[] = "get_supported_formats";
 static const char __pyx_k_Status_alloc_image_mem[] = "Status alloc_image_mem: ";
 static const char __pyx_k_Status_set_display_moded[] = "Status set_display_moded: ";
@@ -1673,7 +1677,6 @@ static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multia
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
-static const char __pyx_k_horus_engine_driver_cyueye_cyuey[] = "horus.engine.driver.cyueye.cyueye";
 static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
@@ -1693,8 +1696,11 @@ static PyObject *__pyx_kp_s_Status_get_supported_formats;
 static PyObject *__pyx_kp_s_Status_init_Camera;
 static PyObject *__pyx_kp_s_Status_set_color_mode;
 static PyObject *__pyx_kp_s_Status_set_display_moded;
+static PyObject *__pyx_kp_s_Status_set_exposure;
 static PyObject *__pyx_kp_s_Status_set_format;
+static PyObject *__pyx_kp_s_Status_set_framerate;
 static PyObject *__pyx_kp_s_Status_set_image_mem;
+static PyObject *__pyx_kp_s_Status_set_saturation;
 static PyObject *__pyx_n_s_TypeError;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_alloc_image_mem;
@@ -1714,7 +1720,6 @@ static PyObject *__pyx_n_s_freeze_video;
 static PyObject *__pyx_n_s_get_supported_formats;
 static PyObject *__pyx_n_s_getstate;
 static PyObject *__pyx_n_s_hcam;
-static PyObject *__pyx_n_s_horus_engine_driver_cyueye_cyuey;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_init;
 static PyObject *__pyx_n_s_init_camera;
@@ -1748,38 +1753,39 @@ static PyObject *__pyx_n_s_set_format;
 static PyObject *__pyx_n_s_set_image_mem;
 static PyObject *__pyx_n_s_setstate;
 static PyObject *__pyx_n_s_setstate_cython;
+static PyObject *__pyx_n_s_src_cyueye;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_ueye_camera_mode;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
-static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_format_id, PyObject *__pyx_v_hcam, PyObject *__pyx_v_displaymode, PyObject *__pyx_v_colormode); /* proto */
-static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_4_check_deamon(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_camera(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_camera(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_display_mode(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_ueye_camera_mode, PyObject *__pyx_v_bitspixel); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_color_mode(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_format(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, int __pyx_v_format_id); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supported_formats(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_24freeze_video(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_26capture_video(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_to_numpy(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to_numpy(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_exposure(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, double __pyx_v_exposure); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_exposure(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_framerate(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, double __pyx_v_framerate); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_38set_saturation(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, int __pyx_v_saturation); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_40get_saturation(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_44grab(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_46__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_48__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_3src_6cyueye_3Cam___cinit__(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_format_id, PyObject *__pyx_v_hcam, PyObject *__pyx_v_displaymode, PyObject *__pyx_v_colormode); /* proto */
+static void __pyx_pf_3src_6cyueye_3Cam_2__dealloc__(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_4_check_deamon(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_6_init_camera(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_8exit_camera(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_10set_display_mode(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_ueye_camera_mode, PyObject *__pyx_v_bitspixel); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_12set_color_mode(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_14set_format(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, int __pyx_v_format_id); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_16get_supported_formats(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_18alloc_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_20free_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_22set_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_24freeze_video(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_26capture_video(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_28freeze_to_numpy(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_30video_to_numpy(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_32set_exposure(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, double __pyx_v_exposure); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_34get_exposure(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_36set_framerate(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, double __pyx_v_framerate); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_38set_saturation(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, int __pyx_v_saturation); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_40get_saturation(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_42read(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_44grab(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_46__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_48__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static PyObject *__pyx_tp_new_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_3src_6cyueye_Cam(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_24;
 static PyObject *__pyx_tuple_;
@@ -1797,7 +1803,7 @@ static PyObject *__pyx_tuple__13;
 static PyObject *__pyx_tuple__14;
 static PyObject *__pyx_codeobj__3;
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":104
+/* "src/cyueye.pyx":104
  *         IMAGE_FORMAT_LIST* image_format_list
  *         cdef np.npy_intp dims[3]
  *     def __cinit__(self, format_id, hcam=0, displaymode='dib', colormode="bgr8_packed"):             # <<<<<<<<<<<<<<
@@ -1806,8 +1812,8 @@ static PyObject *__pyx_codeobj__3;
  */
 
 /* Python wrapper */
-static int __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_3src_6cyueye_3Cam_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_3src_6cyueye_3Cam_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_format_id = 0;
   PyObject *__pyx_v_hcam = 0;
   PyObject *__pyx_v_displaymode = 0;
@@ -1885,18 +1891,18 @@ static int __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_1__cinit__(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 104, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), __pyx_v_format_id, __pyx_v_hcam, __pyx_v_displaymode, __pyx_v_colormode);
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam___cinit__(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), __pyx_v_format_id, __pyx_v_hcam, __pyx_v_displaymode, __pyx_v_colormode);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_format_id, PyObject *__pyx_v_hcam, PyObject *__pyx_v_displaymode, PyObject *__pyx_v_colormode) {
+static int __pyx_pf_3src_6cyueye_3Cam___cinit__(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_format_id, PyObject *__pyx_v_hcam, PyObject *__pyx_v_displaymode, PyObject *__pyx_v_colormode) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   unsigned int __pyx_t_1;
@@ -1908,7 +1914,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   PyObject *__pyx_t_7 = NULL;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":105
+  /* "src/cyueye.pyx":105
  *         cdef np.npy_intp dims[3]
  *     def __cinit__(self, format_id, hcam=0, displaymode='dib', colormode="bgr8_packed"):
  *         self.hCam = hcam             # <<<<<<<<<<<<<<
@@ -1918,7 +1924,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_v_hcam); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
   __pyx_v_self->hCam = __pyx_t_1;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":106
+  /* "src/cyueye.pyx":106
  *     def __cinit__(self, format_id, hcam=0, displaymode='dib', colormode="bgr8_packed"):
  *         self.hCam = hcam
  *         self._init_camera()             # <<<<<<<<<<<<<<
@@ -1947,7 +1953,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":107
+  /* "src/cyueye.pyx":107
  *         self.hCam = hcam
  *         self._init_camera()
  *         self.get_supported_formats()             # <<<<<<<<<<<<<<
@@ -1976,7 +1982,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":108
+  /* "src/cyueye.pyx":108
  *         self._init_camera()
  *         self.get_supported_formats()
  *         self.displaymode=displaymode             # <<<<<<<<<<<<<<
@@ -1992,7 +1998,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __pyx_v_self->displaymode = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":109
+  /* "src/cyueye.pyx":109
  *         self.get_supported_formats()
  *         self.displaymode=displaymode
  *         self.colormode=colormode             # <<<<<<<<<<<<<<
@@ -2008,7 +2014,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __pyx_v_self->colormode = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":110
+  /* "src/cyueye.pyx":110
  *         self.displaymode=displaymode
  *         self.colormode=colormode
  *         self.set_display_mode("dib")             # <<<<<<<<<<<<<<
@@ -2022,7 +2028,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":111
+  /* "src/cyueye.pyx":111
  *         self.colormode=colormode
  *         self.set_display_mode("dib")
  *         self.set_color_mode(self.colormode)             # <<<<<<<<<<<<<<
@@ -2076,7 +2082,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":112
+  /* "src/cyueye.pyx":112
  *         self.set_display_mode("dib")
  *         self.set_color_mode(self.colormode)
  *         self.format_id = format_id             # <<<<<<<<<<<<<<
@@ -2086,7 +2092,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_format_id); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L1_error)
   __pyx_v_self->format_id = __pyx_t_6;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":113
+  /* "src/cyueye.pyx":113
  *         self.set_color_mode(self.colormode)
  *         self.format_id = format_id
  *         self.set_format(self.format_id)             # <<<<<<<<<<<<<<
@@ -2145,7 +2151,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":114
+  /* "src/cyueye.pyx":114
  *         self.format_id = format_id
  *         self.set_format(self.format_id)
  *         self.alloc_image_mem()             # <<<<<<<<<<<<<<
@@ -2174,7 +2180,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":115
+  /* "src/cyueye.pyx":115
  *         self.set_format(self.format_id)
  *         self.alloc_image_mem()
  *         np.Py_INCREF(np.NPY_UINT8)             # <<<<<<<<<<<<<<
@@ -2186,7 +2192,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   Py_INCREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":116
+  /* "src/cyueye.pyx":116
  *         self.alloc_image_mem()
  *         np.Py_INCREF(np.NPY_UINT8)
  *         np.import_array()             # <<<<<<<<<<<<<<
@@ -2195,7 +2201,7 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
  */
   __pyx_t_6 = __pyx_f_5numpy_import_array(); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 116, __pyx_L1_error)
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":104
+  /* "src/cyueye.pyx":104
  *         IMAGE_FORMAT_LIST* image_format_list
  *         cdef np.npy_intp dims[3]
  *     def __cinit__(self, format_id, hcam=0, displaymode='dib', colormode="bgr8_packed"):             # <<<<<<<<<<<<<<
@@ -2212,14 +2218,14 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":117
+/* "src/cyueye.pyx":117
  *         np.Py_INCREF(np.NPY_UINT8)
  *         np.import_array()
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2228,24 +2234,24 @@ static int __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam___cinit__(struct
  */
 
 /* Python wrapper */
-static void __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_3__dealloc__(PyObject *__pyx_v_self); /*proto*/
-static void __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_3__dealloc__(PyObject *__pyx_v_self) {
+static void __pyx_pw_3src_6cyueye_3Cam_3__dealloc__(PyObject *__pyx_v_self); /*proto*/
+static void __pyx_pw_3src_6cyueye_3Cam_3__dealloc__(PyObject *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__ (wrapper)", 0);
-  __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_pf_3src_6cyueye_3Cam_2__dealloc__(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
 }
 
-static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static void __pyx_pf_3src_6cyueye_3Cam_2__dealloc__(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":118
+  /* "src/cyueye.pyx":118
  *         np.import_array()
  *     def __dealloc__(self):
  *         self.free_image_mem()             # <<<<<<<<<<<<<<
@@ -2274,7 +2280,7 @@ static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(st
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":119
+  /* "src/cyueye.pyx":119
  *     def __dealloc__(self):
  *         self.free_image_mem()
  *         self.exit_camera()             # <<<<<<<<<<<<<<
@@ -2303,7 +2309,7 @@ static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(st
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":117
+  /* "src/cyueye.pyx":117
  *         np.Py_INCREF(np.NPY_UINT8)
  *         np.import_array()
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2317,12 +2323,12 @@ static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(st
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_WriteUnraisable("horus.engine.driver.cyueye.cyueye.Cam.__dealloc__", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("src.cyueye.Cam.__dealloc__", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":121
+/* "src/cyueye.pyx":121
  *         self.exit_camera()
  * 
  *     def _check_deamon(self):             # <<<<<<<<<<<<<<
@@ -2331,19 +2337,19 @@ static void __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_2__dealloc__(st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_5_check_deamon(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_5_check_deamon(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_5_check_deamon(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_5_check_deamon(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_check_deamon (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_4_check_deamon(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_4_check_deamon(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_4_check_deamon(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_4_check_deamon(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_check_deamon", 0);
@@ -2355,7 +2361,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_4_check_de
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":125
+/* "src/cyueye.pyx":125
  * 
  * 
  *     def _init_camera(self):             # <<<<<<<<<<<<<<
@@ -2364,19 +2370,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_4_check_de
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_7_init_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_7_init_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_7_init_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_7_init_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_init_camera (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_camera(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_6_init_camera(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_camera(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_6_init_camera(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -2384,7 +2390,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("_init_camera", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":126
+  /* "src/cyueye.pyx":126
  * 
  *     def _init_camera(self):
  *         ret = is_InitCamera(&self.hCam, NULL)             # <<<<<<<<<<<<<<
@@ -2393,7 +2399,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
  */
   __pyx_v_ret = is_InitCamera((&__pyx_v_self->hCam), NULL);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":127
+  /* "src/cyueye.pyx":127
  *     def _init_camera(self):
  *         ret = is_InitCamera(&self.hCam, NULL)
  *         print("Status init_Camera: ", ret)             # <<<<<<<<<<<<<<
@@ -2415,7 +2421,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":128
+  /* "src/cyueye.pyx":128
  *         ret = is_InitCamera(&self.hCam, NULL)
  *         print("Status init_Camera: ", ret)
  *         return ret             # <<<<<<<<<<<<<<
@@ -2429,7 +2435,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":125
+  /* "src/cyueye.pyx":125
  * 
  * 
  *     def _init_camera(self):             # <<<<<<<<<<<<<<
@@ -2441,7 +2447,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam._init_camera", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam._init_camera", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2449,7 +2455,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":130
+/* "src/cyueye.pyx":130
  *         return ret
  * 
  *     def exit_camera(self):             # <<<<<<<<<<<<<<
@@ -2458,19 +2464,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_6_init_cam
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_9exit_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_9exit_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_9exit_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_9exit_camera(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("exit_camera (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_camera(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_8exit_camera(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_camera(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_8exit_camera(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -2478,7 +2484,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("exit_camera", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":131
+  /* "src/cyueye.pyx":131
  * 
  *     def exit_camera(self):
  *         ret = is_ExitCamera(self.hCam)             # <<<<<<<<<<<<<<
@@ -2487,7 +2493,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
  */
   __pyx_v_ret = is_ExitCamera(__pyx_v_self->hCam);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":132
+  /* "src/cyueye.pyx":132
  *     def exit_camera(self):
  *         ret = is_ExitCamera(self.hCam)
  *         print("Status exit_camera: ", ret)             # <<<<<<<<<<<<<<
@@ -2509,7 +2515,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":133
+  /* "src/cyueye.pyx":133
  *         ret = is_ExitCamera(self.hCam)
  *         print("Status exit_camera: ", ret)
  *         return ret             # <<<<<<<<<<<<<<
@@ -2523,7 +2529,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":130
+  /* "src/cyueye.pyx":130
  *         return ret
  * 
  *     def exit_camera(self):             # <<<<<<<<<<<<<<
@@ -2535,7 +2541,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.exit_camera", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.exit_camera", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2543,7 +2549,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":135
+/* "src/cyueye.pyx":135
  *         return ret
  * 
  *     def set_display_mode(self, mode):             # <<<<<<<<<<<<<<
@@ -2552,19 +2558,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_8exit_came
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_11set_display_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_11set_display_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_11set_display_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_11set_display_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_display_mode (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_display_mode(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v_mode));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_10set_display_mode(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v_mode));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_display_mode(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_10set_display_mode(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -2574,7 +2580,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("set_display_mode", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":136
+  /* "src/cyueye.pyx":136
  * 
  *     def set_display_mode(self, mode):
  *         if mode is 'dib':             # <<<<<<<<<<<<<<
@@ -2585,7 +2591,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":137
+    /* "src/cyueye.pyx":137
  *     def set_display_mode(self, mode):
  *         if mode is 'dib':
  *             ret = is_SetDisplayMode(self.hCam, IS_SET_DM_DIB)             # <<<<<<<<<<<<<<
@@ -2594,7 +2600,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
  */
     __pyx_v_ret = is_SetDisplayMode(__pyx_v_self->hCam, IS_SET_DM_DIB);
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":136
+    /* "src/cyueye.pyx":136
  * 
  *     def set_display_mode(self, mode):
  *         if mode is 'dib':             # <<<<<<<<<<<<<<
@@ -2604,7 +2610,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
     goto __pyx_L3;
   }
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":139
+  /* "src/cyueye.pyx":139
  *             ret = is_SetDisplayMode(self.hCam, IS_SET_DM_DIB)
  *         else:
  *             raise ValueError(mode, " is not supported")             # <<<<<<<<<<<<<<
@@ -2629,7 +2635,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   }
   __pyx_L3:;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":140
+  /* "src/cyueye.pyx":140
  *         else:
  *             raise ValueError(mode, " is not supported")
  *         print("Status set_display_moded: ", ret)             # <<<<<<<<<<<<<<
@@ -2651,7 +2657,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":135
+  /* "src/cyueye.pyx":135
  *         return ret
  * 
  *     def set_display_mode(self, mode):             # <<<<<<<<<<<<<<
@@ -2665,7 +2671,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_display_mode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_display_mode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2673,7 +2679,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":142
+/* "src/cyueye.pyx":142
  *         print("Status set_display_moded: ", ret)
  * 
  *     def set_color_mode(self, mode):             # <<<<<<<<<<<<<<
@@ -2682,19 +2688,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_10set_disp
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_13set_color_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_13set_color_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_13set_color_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_13set_color_mode(PyObject *__pyx_v_self, PyObject *__pyx_v_mode) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_color_mode (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_color_mode(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v_mode));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_12set_color_mode(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v_mode));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":145
+/* "src/cyueye.pyx":145
  * 
  *         class color_mode_options():
  *             def __init__(self, ueye_camera_mode, bitspixel):             # <<<<<<<<<<<<<<
@@ -2703,9 +2709,9 @@ static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_13set_colo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__ = {"__init__", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__ = {"__init__", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_self = 0;
   PyObject *__pyx_v_ueye_camera_mode = 0;
   PyObject *__pyx_v_bitspixel = 0;
@@ -2764,23 +2770,23 @@ static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 145, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_color_mode.color_mode_options.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_color_mode.color_mode_options.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(__pyx_self, __pyx_v_self, __pyx_v_ueye_camera_mode, __pyx_v_bitspixel);
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(__pyx_self, __pyx_v_self, __pyx_v_ueye_camera_mode, __pyx_v_bitspixel);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_ueye_camera_mode, PyObject *__pyx_v_bitspixel) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_ueye_camera_mode, PyObject *__pyx_v_bitspixel) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":146
+  /* "src/cyueye.pyx":146
  *         class color_mode_options():
  *             def __init__(self, ueye_camera_mode, bitspixel):
  *                 self.ueye_camera_mode = ueye_camera_mode             # <<<<<<<<<<<<<<
@@ -2789,7 +2795,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_ueye_camera_mode, __pyx_v_ueye_camera_mode) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":147
+  /* "src/cyueye.pyx":147
  *             def __init__(self, ueye_camera_mode, bitspixel):
  *                 self.ueye_camera_mode = ueye_camera_mode
  *                 self.bitspixel = bitspixel             # <<<<<<<<<<<<<<
@@ -2798,7 +2804,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_bitspixel, __pyx_v_bitspixel) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":145
+  /* "src/cyueye.pyx":145
  * 
  *         class color_mode_options():
  *             def __init__(self, ueye_camera_mode, bitspixel):             # <<<<<<<<<<<<<<
@@ -2810,7 +2816,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_color_mode.color_mode_options.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_color_mode.color_mode_options.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2818,7 +2824,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":142
+/* "src/cyueye.pyx":142
  *         print("Status set_display_moded: ", ret)
  * 
  *     def set_color_mode(self, mode):             # <<<<<<<<<<<<<<
@@ -2826,7 +2832,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_colo
  *         class color_mode_options():
  */
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_color_mode(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_12set_color_mode(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, PyObject *__pyx_v_mode) {
   PyObject *__pyx_v_color_mode_options = NULL;
   PyObject *__pyx_v_options = NULL;
   int __pyx_v_ret;
@@ -2840,29 +2846,29 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   int __pyx_t_6;
   __Pyx_RefNannySetupContext("set_color_mode", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":144
+  /* "src/cyueye.pyx":144
  *     def set_color_mode(self, mode):
  * 
  *         class color_mode_options():             # <<<<<<<<<<<<<<
  *             def __init__(self, ueye_camera_mode, bitspixel):
  *                 self.ueye_camera_mode = ueye_camera_mode
  */
-  __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_color_mode_options, __pyx_n_s_set_color_mode_locals_color_mode, (PyObject *) NULL, __pyx_n_s_horus_engine_driver_cyueye_cyuey, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_color_mode_options, __pyx_n_s_set_color_mode_locals_color_mode, (PyObject *) NULL, __pyx_n_s_src_cyueye, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":145
+  /* "src/cyueye.pyx":145
  * 
  *         class color_mode_options():
  *             def __init__(self, ueye_camera_mode, bitspixel):             # <<<<<<<<<<<<<<
  *                 self.ueye_camera_mode = ueye_camera_mode
  *                 self.bitspixel = bitspixel
  */
-  __pyx_t_2 = __Pyx_CyFunction_NewEx(&__pyx_mdef_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__, 0, __pyx_n_s_set_color_mode_locals_color_mode_2, NULL, __pyx_n_s_horus_engine_driver_cyueye_cyuey, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_NewEx(&__pyx_mdef_3src_6cyueye_3Cam_14set_color_mode_18color_mode_options_1__init__, 0, __pyx_n_s_set_color_mode_locals_color_mode_2, NULL, __pyx_n_s_src_cyueye, __pyx_d, ((PyObject *)__pyx_codeobj__3)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyObject_SetItem(__pyx_t_1, __pyx_n_s_init, __pyx_t_2) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":144
+  /* "src/cyueye.pyx":144
  *     def set_color_mode(self, mode):
  * 
  *         class color_mode_options():             # <<<<<<<<<<<<<<
@@ -2875,7 +2881,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":150
+  /* "src/cyueye.pyx":150
  * 
  *         options = {
  *             'bgr8_packed': color_mode_options(IS_CM_BGR8_PACKED, 24)             # <<<<<<<<<<<<<<
@@ -2902,7 +2908,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __pyx_v_options = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":154
+  /* "src/cyueye.pyx":154
  * 
  * 
  *         if mode in options:             # <<<<<<<<<<<<<<
@@ -2913,7 +2919,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":155
+    /* "src/cyueye.pyx":155
  * 
  *         if mode in options:
  *             ret = is_SetColorMode(self.hCam, options[mode].ueye_camera_mode)             # <<<<<<<<<<<<<<
@@ -2929,7 +2935,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_v_ret = is_SetColorMode(__pyx_v_self->hCam, __pyx_t_6);
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":156
+    /* "src/cyueye.pyx":156
  *         if mode in options:
  *             ret = is_SetColorMode(self.hCam, options[mode].ueye_camera_mode)
  *             self.bitspixel = options[mode].bitspixel             # <<<<<<<<<<<<<<
@@ -2945,7 +2951,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_self->bitspixel = __pyx_t_6;
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":154
+    /* "src/cyueye.pyx":154
  * 
  * 
  *         if mode in options:             # <<<<<<<<<<<<<<
@@ -2955,7 +2961,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
     goto __pyx_L3;
   }
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":158
+  /* "src/cyueye.pyx":158
  *             self.bitspixel = options[mode].bitspixel
  *         else:
  *             raise ValueError(mode, " is no colormode")             # <<<<<<<<<<<<<<
@@ -2980,7 +2986,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   }
   __pyx_L3:;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":159
+  /* "src/cyueye.pyx":159
  *         else:
  *             raise ValueError(mode, " is no colormode")
  *         print("Status set_color_mode: ", ret)             # <<<<<<<<<<<<<<
@@ -3002,7 +3008,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":160
+  /* "src/cyueye.pyx":160
  *             raise ValueError(mode, " is no colormode")
  *         print("Status set_color_mode: ", ret)
  *         return ret             # <<<<<<<<<<<<<<
@@ -3016,7 +3022,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":142
+  /* "src/cyueye.pyx":142
  *         print("Status set_display_moded: ", ret)
  * 
  *     def set_color_mode(self, mode):             # <<<<<<<<<<<<<<
@@ -3029,7 +3035,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_color_mode", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_color_mode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_color_mode_options);
@@ -3039,7 +3045,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":162
+/* "src/cyueye.pyx":162
  *         return ret
  * 
  *     def set_format(self, int format_id):             # <<<<<<<<<<<<<<
@@ -3048,8 +3054,8 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_12set_colo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_15set_format(PyObject *__pyx_v_self, PyObject *__pyx_arg_format_id); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_15set_format(PyObject *__pyx_v_self, PyObject *__pyx_arg_format_id) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_15set_format(PyObject *__pyx_v_self, PyObject *__pyx_arg_format_id); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_15set_format(PyObject *__pyx_v_self, PyObject *__pyx_arg_format_id) {
   int __pyx_v_format_id;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -3059,18 +3065,18 @@ static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_15set_form
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_format", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_format", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_format(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((int)__pyx_v_format_id));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_14set_format(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((int)__pyx_v_format_id));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_format(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, int __pyx_v_format_id) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_14set_format(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, int __pyx_v_format_id) {
   unsigned int __pyx_v_i;
   IMAGE_FORMAT_INFO __pyx_v_format_info;
   int __pyx_v_ret;
@@ -3084,7 +3090,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
   unsigned int __pyx_t_6;
   __Pyx_RefNannySetupContext("set_format", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":165
+  /* "src/cyueye.pyx":165
  *         cdef unsigned int i
  *         cdef IMAGE_FORMAT_INFO format_info
  *         for i in range(self.image_format_list.nNumListElements):             # <<<<<<<<<<<<<<
@@ -3095,7 +3101,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i = __pyx_t_2;
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":166
+    /* "src/cyueye.pyx":166
  *         cdef IMAGE_FORMAT_INFO format_info
  *         for i in range(self.image_format_list.nNumListElements):
  *             format_info = self.image_format_list.FormatInfo[i]             # <<<<<<<<<<<<<<
@@ -3104,7 +3110,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
  */
     __pyx_v_format_info = (__pyx_v_self->image_format_list->FormatInfo[__pyx_v_i]);
 
-    /* "horus/engine/driver/cyueye/cyueye.pyx":167
+    /* "src/cyueye.pyx":167
  *         for i in range(self.image_format_list.nNumListElements):
  *             format_info = self.image_format_list.FormatInfo[i]
  *             if format_id is format_info.nFormatID:             # <<<<<<<<<<<<<<
@@ -3114,7 +3120,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
     __pyx_t_3 = ((__pyx_v_format_id == __pyx_v_format_info.nFormatID) != 0);
     if (__pyx_t_3) {
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":168
+      /* "src/cyueye.pyx":168
  *             format_info = self.image_format_list.FormatInfo[i]
  *             if format_id is format_info.nFormatID:
  *                 ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_SET_FORMAT, &format_id, 4)             # <<<<<<<<<<<<<<
@@ -3123,7 +3129,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
  */
       __pyx_v_ret = is_ImageFormat(__pyx_v_self->hCam, IMGFRMT_CMD_SET_FORMAT, (&__pyx_v_format_id), 4);
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":169
+      /* "src/cyueye.pyx":169
  *             if format_id is format_info.nFormatID:
  *                 ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_SET_FORMAT, &format_id, 4)
  *                 print("Status set_format: ", ret)             # <<<<<<<<<<<<<<
@@ -3145,7 +3151,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":170
+      /* "src/cyueye.pyx":170
  *                 ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_SET_FORMAT, &format_id, 4)
  *                 print("Status set_format: ", ret)
  *                 self.height = format_info.nHeight             # <<<<<<<<<<<<<<
@@ -3155,7 +3161,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
       __pyx_t_6 = __pyx_v_format_info.nHeight;
       __pyx_v_self->height = __pyx_t_6;
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":171
+      /* "src/cyueye.pyx":171
  *                 print("Status set_format: ", ret)
  *                 self.height = format_info.nHeight
  *                 self.width = format_info.nWidth             # <<<<<<<<<<<<<<
@@ -3165,7 +3171,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
       __pyx_t_6 = __pyx_v_format_info.nWidth;
       __pyx_v_self->width = __pyx_t_6;
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":172
+      /* "src/cyueye.pyx":172
  *                 self.height = format_info.nHeight
  *                 self.width = format_info.nWidth
  *                 return ret             # <<<<<<<<<<<<<<
@@ -3179,7 +3185,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "horus/engine/driver/cyueye/cyueye.pyx":167
+      /* "src/cyueye.pyx":167
  *         for i in range(self.image_format_list.nNumListElements):
  *             format_info = self.image_format_list.FormatInfo[i]
  *             if format_id is format_info.nFormatID:             # <<<<<<<<<<<<<<
@@ -3189,7 +3195,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
     }
   }
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":173
+  /* "src/cyueye.pyx":173
  *                 self.width = format_info.nWidth
  *                 return ret
  *         raise ValueError("Format: ", format_id, "is not supported on your camera")             # <<<<<<<<<<<<<<
@@ -3216,7 +3222,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __PYX_ERR(0, 173, __pyx_L1_error)
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":162
+  /* "src/cyueye.pyx":162
  *         return ret
  * 
  *     def set_format(self, int format_id):             # <<<<<<<<<<<<<<
@@ -3228,7 +3234,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_format", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_format", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3236,7 +3242,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":175
+/* "src/cyueye.pyx":175
  *         raise ValueError("Format: ", format_id, "is not supported on your camera")
  * 
  *     def get_supported_formats(self):             # <<<<<<<<<<<<<<
@@ -3245,19 +3251,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_14set_form
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_17get_supported_formats(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_17get_supported_formats(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_17get_supported_formats(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_17get_supported_formats(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_supported_formats (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supported_formats(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_16get_supported_formats(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supported_formats(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_16get_supported_formats(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   unsigned int __pyx_v_count;
   unsigned int __pyx_v_bytesneeded;
   int __pyx_v_ret;
@@ -3271,7 +3277,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("get_supported_formats", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":177
+  /* "src/cyueye.pyx":177
  *     def get_supported_formats(self):
  *         cdef unsigned int count
  *         cdef unsigned int bytesneeded = sizeof(IMAGE_FORMAT_LIST)             # <<<<<<<<<<<<<<
@@ -3280,7 +3286,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_bytesneeded = (sizeof(IMAGE_FORMAT_LIST));
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":178
+  /* "src/cyueye.pyx":178
  *         cdef unsigned int count
  *         cdef unsigned int bytesneeded = sizeof(IMAGE_FORMAT_LIST)
  *         ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_GET_NUM_ENTRIES, &count, sizeof(count))             # <<<<<<<<<<<<<<
@@ -3289,7 +3295,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_ret = is_ImageFormat(__pyx_v_self->hCam, IMGFRMT_CMD_GET_NUM_ENTRIES, (&__pyx_v_count), (sizeof(__pyx_v_count)));
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":179
+  /* "src/cyueye.pyx":179
  *         cdef unsigned int bytesneeded = sizeof(IMAGE_FORMAT_LIST)
  *         ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_GET_NUM_ENTRIES, &count, sizeof(count))
  *         bytesneeded += (count - 1) * sizeof(IMAGE_FORMAT_INFO)             # <<<<<<<<<<<<<<
@@ -3298,7 +3304,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_bytesneeded = (__pyx_v_bytesneeded + ((__pyx_v_count - 1) * (sizeof(IMAGE_FORMAT_INFO))));
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":181
+  /* "src/cyueye.pyx":181
  *         bytesneeded += (count - 1) * sizeof(IMAGE_FORMAT_INFO)
  *         cdef void* ptr
  *         ptr = malloc(bytesneeded)             # <<<<<<<<<<<<<<
@@ -3307,7 +3313,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_ptr = malloc(__pyx_v_bytesneeded);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":182
+  /* "src/cyueye.pyx":182
  *         cdef void* ptr
  *         ptr = malloc(bytesneeded)
  *         cdef IMAGE_FORMAT_LIST* pformatList = <IMAGE_FORMAT_LIST *> ptr             # <<<<<<<<<<<<<<
@@ -3316,7 +3322,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_pformatList = ((IMAGE_FORMAT_LIST *)__pyx_v_ptr);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":183
+  /* "src/cyueye.pyx":183
  *         ptr = malloc(bytesneeded)
  *         cdef IMAGE_FORMAT_LIST* pformatList = <IMAGE_FORMAT_LIST *> ptr
  *         pformatList.nSizeOfListEntry = sizeof(IMAGE_FORMAT_INFO)             # <<<<<<<<<<<<<<
@@ -3325,7 +3331,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_pformatList->nSizeOfListEntry = (sizeof(IMAGE_FORMAT_INFO));
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":184
+  /* "src/cyueye.pyx":184
  *         cdef IMAGE_FORMAT_LIST* pformatList = <IMAGE_FORMAT_LIST *> ptr
  *         pformatList.nSizeOfListEntry = sizeof(IMAGE_FORMAT_INFO)
  *         pformatList.nNumListElements = count             # <<<<<<<<<<<<<<
@@ -3334,7 +3340,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_pformatList->nNumListElements = __pyx_v_count;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":185
+  /* "src/cyueye.pyx":185
  *         pformatList.nSizeOfListEntry = sizeof(IMAGE_FORMAT_INFO)
  *         pformatList.nNumListElements = count
  *         ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_GET_LIST, pformatList, bytesneeded)             # <<<<<<<<<<<<<<
@@ -3343,7 +3349,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_ret = is_ImageFormat(__pyx_v_self->hCam, IMGFRMT_CMD_GET_LIST, __pyx_v_pformatList, __pyx_v_bytesneeded);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":186
+  /* "src/cyueye.pyx":186
  *         pformatList.nNumListElements = count
  *         ret = is_ImageFormat(self.hCam, IMGFRMT_CMD_GET_LIST, pformatList, bytesneeded)
  *         cdef unsigned int i, n = pformatList.nNumListElements             # <<<<<<<<<<<<<<
@@ -3353,7 +3359,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   __pyx_t_1 = __pyx_v_pformatList->nNumListElements;
   __pyx_v_n = __pyx_t_1;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":188
+  /* "src/cyueye.pyx":188
  *         cdef unsigned int i, n = pformatList.nNumListElements
  *         cdef IMAGE_FORMAT_INFO formatInfo
  *         self.image_format_list = pformatList             # <<<<<<<<<<<<<<
@@ -3362,7 +3368,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
   __pyx_v_self->image_format_list = __pyx_v_pformatList;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":189
+  /* "src/cyueye.pyx":189
  *         cdef IMAGE_FORMAT_INFO formatInfo
  *         self.image_format_list = pformatList
  *         print("Status get_supported_formats", ret)             # <<<<<<<<<<<<<<
@@ -3384,7 +3390,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":190
+  /* "src/cyueye.pyx":190
  *         self.image_format_list = pformatList
  *         print("Status get_supported_formats", ret)
  *         return ret             # <<<<<<<<<<<<<<
@@ -3398,7 +3404,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":175
+  /* "src/cyueye.pyx":175
  *         raise ValueError("Format: ", format_id, "is not supported on your camera")
  * 
  *     def get_supported_formats(self):             # <<<<<<<<<<<<<<
@@ -3410,7 +3416,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.get_supported_formats", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.get_supported_formats", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3418,7 +3424,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":193
+/* "src/cyueye.pyx":193
  * 
  * 
  *     def alloc_image_mem(self):             # <<<<<<<<<<<<<<
@@ -3427,19 +3433,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_16get_supp
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_19alloc_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_19alloc_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_19alloc_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_19alloc_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("alloc_image_mem (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_image_mem(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_18alloc_image_mem(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_18alloc_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_v_ret = NULL;
   int __pyx_v_colorspace;
   PyObject *__pyx_r = NULL;
@@ -3450,7 +3456,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   int __pyx_t_4;
   __Pyx_RefNannySetupContext("alloc_image_mem", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":194
+  /* "src/cyueye.pyx":194
  * 
  *     def alloc_image_mem(self):
  *         ret = is_AllocImageMem(self.hCam, self.width, self.height, self.bitspixel, &self.pcImgMem, &self.pid)             # <<<<<<<<<<<<<<
@@ -3462,7 +3468,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __pyx_v_ret = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":195
+  /* "src/cyueye.pyx":195
  *     def alloc_image_mem(self):
  *         ret = is_AllocImageMem(self.hCam, self.width, self.height, self.bitspixel, &self.pcImgMem, &self.pid)
  *         print("Status alloc_image_mem: ", ret)             # <<<<<<<<<<<<<<
@@ -3482,7 +3488,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":196
+  /* "src/cyueye.pyx":196
  *         ret = is_AllocImageMem(self.hCam, self.width, self.height, self.bitspixel, &self.pcImgMem, &self.pid)
  *         print("Status alloc_image_mem: ", ret)
  *         ret = self.set_image_mem()             # <<<<<<<<<<<<<<
@@ -3512,7 +3518,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __Pyx_DECREF_SET(__pyx_v_ret, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":197
+  /* "src/cyueye.pyx":197
  *         print("Status alloc_image_mem: ", ret)
  *         ret = self.set_image_mem()
  *         cdef int colorspace = ((self.bitspixel+7)/8)             # <<<<<<<<<<<<<<
@@ -3521,7 +3527,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
  */
   __pyx_v_colorspace = __Pyx_div_long((__pyx_v_self->bitspixel + 7), 8);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":198
+  /* "src/cyueye.pyx":198
  *         ret = self.set_image_mem()
  *         cdef int colorspace = ((self.bitspixel+7)/8)
  *         self.dims[0]=self.height             # <<<<<<<<<<<<<<
@@ -3531,7 +3537,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __pyx_t_4 = __pyx_v_self->height;
   (__pyx_v_self->dims[0]) = __pyx_t_4;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":199
+  /* "src/cyueye.pyx":199
  *         cdef int colorspace = ((self.bitspixel+7)/8)
  *         self.dims[0]=self.height
  *         self.dims[1]=self.width             # <<<<<<<<<<<<<<
@@ -3541,7 +3547,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __pyx_t_4 = __pyx_v_self->width;
   (__pyx_v_self->dims[1]) = __pyx_t_4;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":200
+  /* "src/cyueye.pyx":200
  *         self.dims[0]=self.height
  *         self.dims[1]=self.width
  *         self.dims[2]=colorspace             # <<<<<<<<<<<<<<
@@ -3550,7 +3556,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
  */
   (__pyx_v_self->dims[2]) = __pyx_v_colorspace;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":201
+  /* "src/cyueye.pyx":201
  *         self.dims[1]=self.width
  *         self.dims[2]=colorspace
  *         return ret             # <<<<<<<<<<<<<<
@@ -3562,7 +3568,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __pyx_r = __pyx_v_ret;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":193
+  /* "src/cyueye.pyx":193
  * 
  * 
  *     def alloc_image_mem(self):             # <<<<<<<<<<<<<<
@@ -3575,7 +3581,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.alloc_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.alloc_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_ret);
@@ -3584,7 +3590,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":203
+/* "src/cyueye.pyx":203
  *         return ret
  * 
  *     def free_image_mem(self):             # <<<<<<<<<<<<<<
@@ -3593,19 +3599,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_18alloc_im
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_21free_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_21free_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_21free_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_21free_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("free_image_mem (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_image_mem(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_20free_image_mem(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_20free_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3613,21 +3619,21 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_ima
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("free_image_mem", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":204
+  /* "src/cyueye.pyx":204
  * 
  *     def free_image_mem(self):
  *         ret = is_FreeImageMem(self.hCam, self.pcImgMem, self.pid)             # <<<<<<<<<<<<<<
  *         print('Status free_image_mem: ', ret)
- * 
+ *         return ret
  */
   __pyx_v_ret = is_FreeImageMem(__pyx_v_self->hCam, __pyx_v_self->pcImgMem, __pyx_v_self->pid);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":205
+  /* "src/cyueye.pyx":205
  *     def free_image_mem(self):
  *         ret = is_FreeImageMem(self.hCam, self.pcImgMem, self.pid)
  *         print('Status free_image_mem: ', ret)             # <<<<<<<<<<<<<<
+ *         return ret
  * 
- *     def set_image_mem(self):
  */
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 205, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -3644,7 +3650,21 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_ima
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":203
+  /* "src/cyueye.pyx":206
+ *         ret = is_FreeImageMem(self.hCam, self.pcImgMem, self.pid)
+ *         print('Status free_image_mem: ', ret)
+ *         return ret             # <<<<<<<<<<<<<<
+ * 
+ *     def set_image_mem(self):
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* "src/cyueye.pyx":203
  *         return ret
  * 
  *     def free_image_mem(self):             # <<<<<<<<<<<<<<
@@ -3653,12 +3673,10 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_ima
  */
 
   /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-  goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.free_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.free_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3666,8 +3684,8 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_ima
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":207
- *         print('Status free_image_mem: ', ret)
+/* "src/cyueye.pyx":208
+ *         return ret
  * 
  *     def set_image_mem(self):             # <<<<<<<<<<<<<<
  *         ret = is_SetImageMem(self.hCam, self.pcImgMem, self.pid)
@@ -3675,19 +3693,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_20free_ima
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_23set_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_23set_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_23set_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_23set_image_mem(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_image_mem (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_image_mem(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_22set_image_mem(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_image_mem(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_22set_image_mem(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -3695,25 +3713,25 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_imag
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("set_image_mem", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":208
+  /* "src/cyueye.pyx":209
  * 
  *     def set_image_mem(self):
  *         ret = is_SetImageMem(self.hCam, self.pcImgMem, self.pid)             # <<<<<<<<<<<<<<
  *         print("Status set_image_mem: ", ret)
- * 
+ *         return ret
  */
   __pyx_v_ret = is_SetImageMem(__pyx_v_self->hCam, __pyx_v_self->pcImgMem, __pyx_v_self->pid);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":209
+  /* "src/cyueye.pyx":210
  *     def set_image_mem(self):
  *         ret = is_SetImageMem(self.hCam, self.pcImgMem, self.pid)
  *         print("Status set_image_mem: ", ret)             # <<<<<<<<<<<<<<
+ *         return ret
  * 
- *     def freeze_video(self):
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 209, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_kp_s_Status_set_image_mem);
   __Pyx_GIVEREF(__pyx_kp_s_Status_set_image_mem);
@@ -3721,13 +3739,27 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_imag
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 209, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":207
- *         print('Status free_image_mem: ', ret)
+  /* "src/cyueye.pyx":211
+ *         ret = is_SetImageMem(self.hCam, self.pcImgMem, self.pid)
+ *         print("Status set_image_mem: ", ret)
+ *         return ret             # <<<<<<<<<<<<<<
+ * 
+ *     def freeze_video(self):
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 211, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* "src/cyueye.pyx":208
+ *         return ret
  * 
  *     def set_image_mem(self):             # <<<<<<<<<<<<<<
  *         ret = is_SetImageMem(self.hCam, self.pcImgMem, self.pid)
@@ -3735,12 +3767,10 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_imag
  */
 
   /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-  goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_image_mem", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3748,110 +3778,148 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_22set_imag
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":211
- *         print("Status set_image_mem: ", ret)
+/* "src/cyueye.pyx":213
+ *         return ret
  * 
  *     def freeze_video(self):             # <<<<<<<<<<<<<<
  *         ret = is_FreezeVideo(self.hCam, 1)
- * 
+ *         return ret
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_25freeze_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_25freeze_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_25freeze_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_25freeze_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("freeze_video (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_24freeze_video(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_24freeze_video(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_24freeze_video(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
-  CYTHON_UNUSED int __pyx_v_ret;
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_24freeze_video(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
+  int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("freeze_video", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":212
+  /* "src/cyueye.pyx":214
  * 
  *     def freeze_video(self):
  *         ret = is_FreezeVideo(self.hCam, 1)             # <<<<<<<<<<<<<<
+ *         return ret
  * 
- *     def capture_video(self):
  */
   __pyx_v_ret = is_FreezeVideo(__pyx_v_self->hCam, 1);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":211
- *         print("Status set_image_mem: ", ret)
+  /* "src/cyueye.pyx":215
+ *     def freeze_video(self):
+ *         ret = is_FreezeVideo(self.hCam, 1)
+ *         return ret             # <<<<<<<<<<<<<<
+ * 
+ *     def capture_video(self):
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 215, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* "src/cyueye.pyx":213
+ *         return ret
  * 
  *     def freeze_video(self):             # <<<<<<<<<<<<<<
  *         ret = is_FreezeVideo(self.hCam, 1)
- * 
+ *         return ret
  */
 
   /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("src.cyueye.Cam.freeze_video", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":214
- *         ret = is_FreezeVideo(self.hCam, 1)
+/* "src/cyueye.pyx":217
+ *         return ret
  * 
  *     def capture_video(self):             # <<<<<<<<<<<<<<
  *         ret = is_CaptureVideo(self.hCam, 0)
- * 
+ *         return ret
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_27capture_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_27capture_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_27capture_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_27capture_video(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("capture_video (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_26capture_video(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_26capture_video(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_26capture_video(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
-  CYTHON_UNUSED int __pyx_v_ret;
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_26capture_video(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
+  int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("capture_video", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":215
+  /* "src/cyueye.pyx":218
  * 
  *     def capture_video(self):
  *         ret = is_CaptureVideo(self.hCam, 0)             # <<<<<<<<<<<<<<
+ *         return ret
  * 
- *     def freeze_to_numpy(self):
  */
   __pyx_v_ret = is_CaptureVideo(__pyx_v_self->hCam, 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":214
- *         ret = is_FreezeVideo(self.hCam, 1)
+  /* "src/cyueye.pyx":219
+ *     def capture_video(self):
+ *         ret = is_CaptureVideo(self.hCam, 0)
+ *         return ret             # <<<<<<<<<<<<<<
+ * 
+ *     def freeze_to_numpy(self):
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* "src/cyueye.pyx":217
+ *         return ret
  * 
  *     def capture_video(self):             # <<<<<<<<<<<<<<
  *         ret = is_CaptureVideo(self.hCam, 0)
- * 
+ *         return ret
  */
 
   /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("src.cyueye.Cam.capture_video", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":217
- *         ret = is_CaptureVideo(self.hCam, 0)
+/* "src/cyueye.pyx":221
+ *         return ret
  * 
  *     def freeze_to_numpy(self):             # <<<<<<<<<<<<<<
  *         self.freeze_video()
@@ -3859,19 +3927,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_26capture_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_29freeze_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_29freeze_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_29freeze_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_29freeze_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("freeze_to_numpy (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_to_numpy(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_28freeze_to_numpy(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_to_numpy(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_28freeze_to_numpy(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3879,14 +3947,14 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("freeze_to_numpy", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":218
+  /* "src/cyueye.pyx":222
  * 
  *     def freeze_to_numpy(self):
  *         self.freeze_video()             # <<<<<<<<<<<<<<
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_freeze_video); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_freeze_video); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -3899,16 +3967,16 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
     }
   }
   if (__pyx_t_3) {
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 218, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   } else {
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 218, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 222, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":219
+  /* "src/cyueye.pyx":223
  *     def freeze_to_numpy(self):
  *         self.freeze_video()
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)             # <<<<<<<<<<<<<<
@@ -3916,14 +3984,14 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
  *     def video_to_numpy(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 223, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":217
- *         ret = is_CaptureVideo(self.hCam, 0)
+  /* "src/cyueye.pyx":221
+ *         return ret
  * 
  *     def freeze_to_numpy(self):             # <<<<<<<<<<<<<<
  *         self.freeze_video()
@@ -3935,7 +4003,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.freeze_to_numpy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.freeze_to_numpy", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3943,7 +4011,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":221
+/* "src/cyueye.pyx":225
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def video_to_numpy(self):             # <<<<<<<<<<<<<<
@@ -3952,25 +4020,25 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_28freeze_t
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_31video_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_31video_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_31video_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_31video_to_numpy(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("video_to_numpy (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to_numpy(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_30video_to_numpy(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to_numpy(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_30video_to_numpy(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("video_to_numpy", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":222
+  /* "src/cyueye.pyx":226
  * 
  *     def video_to_numpy(self):
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)             # <<<<<<<<<<<<<<
@@ -3978,13 +4046,13 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to
  *     def set_exposure(self, double exposure):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 222, __pyx_L1_error)
+  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":221
+  /* "src/cyueye.pyx":225
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def video_to_numpy(self):             # <<<<<<<<<<<<<<
@@ -3995,7 +4063,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.video_to_numpy", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.video_to_numpy", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4003,38 +4071,38 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_30video_to
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":224
+/* "src/cyueye.pyx":228
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def set_exposure(self, double exposure):             # <<<<<<<<<<<<<<
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, &exposure, 8)
- *         print(ret)
+ *         print('Status set_exposure: ', ret)
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_33set_exposure(PyObject *__pyx_v_self, PyObject *__pyx_arg_exposure); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_33set_exposure(PyObject *__pyx_v_self, PyObject *__pyx_arg_exposure) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_33set_exposure(PyObject *__pyx_v_self, PyObject *__pyx_arg_exposure); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_33set_exposure(PyObject *__pyx_v_self, PyObject *__pyx_arg_exposure) {
   double __pyx_v_exposure;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_exposure (wrapper)", 0);
   assert(__pyx_arg_exposure); {
-    __pyx_v_exposure = __pyx_PyFloat_AsDouble(__pyx_arg_exposure); if (unlikely((__pyx_v_exposure == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 224, __pyx_L3_error)
+    __pyx_v_exposure = __pyx_PyFloat_AsDouble(__pyx_arg_exposure); if (unlikely((__pyx_v_exposure == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 228, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_exposure(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((double)__pyx_v_exposure));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_32set_exposure(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((double)__pyx_v_exposure));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_exposure(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, double __pyx_v_exposure) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_32set_exposure(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, double __pyx_v_exposure) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -4042,61 +4110,64 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_expo
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("set_exposure", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":225
+  /* "src/cyueye.pyx":229
  * 
  *     def set_exposure(self, double exposure):
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, &exposure, 8)             # <<<<<<<<<<<<<<
- *         print(ret)
+ *         print('Status set_exposure: ', ret)
  *         return ret
  */
   __pyx_v_ret = is_Exposure(__pyx_v_self->hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, (&__pyx_v_exposure), 8);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":226
+  /* "src/cyueye.pyx":230
  *     def set_exposure(self, double exposure):
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, &exposure, 8)
- *         print(ret)             # <<<<<<<<<<<<<<
+ *         print('Status set_exposure: ', ret)             # <<<<<<<<<<<<<<
  *         return ret
  * 
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_kp_s_Status_set_exposure);
+  __Pyx_GIVEREF(__pyx_kp_s_Status_set_exposure);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_kp_s_Status_set_exposure);
   __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":227
+  /* "src/cyueye.pyx":231
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, &exposure, 8)
- *         print(ret)
+ *         print('Status set_exposure: ', ret)
  *         return ret             # <<<<<<<<<<<<<<
  * 
  *     def get_exposure(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 227, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 231, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":224
+  /* "src/cyueye.pyx":228
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def set_exposure(self, double exposure):             # <<<<<<<<<<<<<<
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_SET_EXPOSURE, &exposure, 8)
- *         print(ret)
+ *         print('Status set_exposure: ', ret)
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4104,7 +4175,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_expo
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":229
+/* "src/cyueye.pyx":233
  *         return ret
  * 
  *     def get_exposure(self):             # <<<<<<<<<<<<<<
@@ -4113,19 +4184,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_32set_expo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_35get_exposure(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_35get_exposure(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_35get_exposure(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_35get_exposure(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_exposure (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_exposure(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_34get_exposure(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_exposure(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_34get_exposure(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   double __pyx_v_exposure;
   CYTHON_UNUSED int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
@@ -4133,7 +4204,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("get_exposure", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":231
+  /* "src/cyueye.pyx":235
  *     def get_exposure(self):
  *         cdef double exposure
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_GET_EXPOSURE, &exposure, 8)             # <<<<<<<<<<<<<<
@@ -4142,7 +4213,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
  */
   __pyx_v_ret = is_Exposure(__pyx_v_self->hCam, IS_EXPOSURE_CMD_GET_EXPOSURE, (&__pyx_v_exposure), 8);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":232
+  /* "src/cyueye.pyx":236
  *         cdef double exposure
  *         ret = is_Exposure(self.hCam, IS_EXPOSURE_CMD_GET_EXPOSURE, &exposure, 8)
  *         return exposure             # <<<<<<<<<<<<<<
@@ -4150,13 +4221,13 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
  *     def set_framerate(self, double framerate):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_exposure); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 232, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_exposure); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":229
+  /* "src/cyueye.pyx":233
  *         return ret
  * 
  *     def get_exposure(self):             # <<<<<<<<<<<<<<
@@ -4167,7 +4238,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.get_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.get_exposure", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4175,7 +4246,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":234
+/* "src/cyueye.pyx":238
  *         return exposure
  * 
  *     def set_framerate(self, double framerate):             # <<<<<<<<<<<<<<
@@ -4184,29 +4255,29 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_34get_expo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_37set_framerate(PyObject *__pyx_v_self, PyObject *__pyx_arg_framerate); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_37set_framerate(PyObject *__pyx_v_self, PyObject *__pyx_arg_framerate) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_37set_framerate(PyObject *__pyx_v_self, PyObject *__pyx_arg_framerate); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_37set_framerate(PyObject *__pyx_v_self, PyObject *__pyx_arg_framerate) {
   double __pyx_v_framerate;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_framerate (wrapper)", 0);
   assert(__pyx_arg_framerate); {
-    __pyx_v_framerate = __pyx_PyFloat_AsDouble(__pyx_arg_framerate); if (unlikely((__pyx_v_framerate == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 234, __pyx_L3_error)
+    __pyx_v_framerate = __pyx_PyFloat_AsDouble(__pyx_arg_framerate); if (unlikely((__pyx_v_framerate == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 238, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_framerate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_framerate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_framerate(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((double)__pyx_v_framerate));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_36set_framerate(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((double)__pyx_v_framerate));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_framerate(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, double __pyx_v_framerate) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_36set_framerate(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, double __pyx_v_framerate) {
   double __pyx_v_new_framrate;
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
@@ -4216,28 +4287,50 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_fram
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("set_framerate", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":236
+  /* "src/cyueye.pyx":240
  *     def set_framerate(self, double framerate):
  *         cdef double new_framrate
  *         ret = is_SetFrameRate(self.hCam, framerate, &new_framrate)             # <<<<<<<<<<<<<<
+ *         print('Status set_framerate: ', ret)
  *         return new_framrate, ret
- * 
  */
   __pyx_v_ret = is_SetFrameRate(__pyx_v_self->hCam, __pyx_v_framerate, (&__pyx_v_new_framrate));
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":237
+  /* "src/cyueye.pyx":241
  *         cdef double new_framrate
  *         ret = is_SetFrameRate(self.hCam, framerate, &new_framrate)
+ *         print('Status set_framerate: ', ret)             # <<<<<<<<<<<<<<
+ *         return new_framrate, ret
+ * 
+ */
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_kp_s_Status_set_framerate);
+  __Pyx_GIVEREF(__pyx_kp_s_Status_set_framerate);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_kp_s_Status_set_framerate);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "src/cyueye.pyx":242
+ *         ret = is_SetFrameRate(self.hCam, framerate, &new_framrate)
+ *         print('Status set_framerate: ', ret)
  *         return new_framrate, ret             # <<<<<<<<<<<<<<
  * 
  *     def set_saturation(self, int saturation):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_new_framrate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 237, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_new_framrate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 237, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 237, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
@@ -4249,7 +4342,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_fram
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":234
+  /* "src/cyueye.pyx":238
  *         return exposure
  * 
  *     def set_framerate(self, double framerate):             # <<<<<<<<<<<<<<
@@ -4262,7 +4355,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_fram
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_framerate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_framerate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4270,79 +4363,103 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_36set_fram
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":239
+/* "src/cyueye.pyx":244
  *         return new_framrate, ret
  * 
  *     def set_saturation(self, int saturation):             # <<<<<<<<<<<<<<
- *        ret = is_SetSaturation(self.hCam, saturation, saturation)
- *        return ret
+ *         ret = is_SetSaturation(self.hCam, saturation, saturation)
+ *         print('Status set_saturation: ', ret)
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_39set_saturation(PyObject *__pyx_v_self, PyObject *__pyx_arg_saturation); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_39set_saturation(PyObject *__pyx_v_self, PyObject *__pyx_arg_saturation) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_39set_saturation(PyObject *__pyx_v_self, PyObject *__pyx_arg_saturation); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_39set_saturation(PyObject *__pyx_v_self, PyObject *__pyx_arg_saturation) {
   int __pyx_v_saturation;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_saturation (wrapper)", 0);
   assert(__pyx_arg_saturation); {
-    __pyx_v_saturation = __Pyx_PyInt_As_int(__pyx_arg_saturation); if (unlikely((__pyx_v_saturation == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 239, __pyx_L3_error)
+    __pyx_v_saturation = __Pyx_PyInt_As_int(__pyx_arg_saturation); if (unlikely((__pyx_v_saturation == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 244, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_saturation", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_saturation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_38set_saturation(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((int)__pyx_v_saturation));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_38set_saturation(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((int)__pyx_v_saturation));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_38set_saturation(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, int __pyx_v_saturation) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_38set_saturation(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, int __pyx_v_saturation) {
   int __pyx_v_ret;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("set_saturation", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":240
+  /* "src/cyueye.pyx":245
  * 
  *     def set_saturation(self, int saturation):
- *        ret = is_SetSaturation(self.hCam, saturation, saturation)             # <<<<<<<<<<<<<<
- *        return ret
- * 
+ *         ret = is_SetSaturation(self.hCam, saturation, saturation)             # <<<<<<<<<<<<<<
+ *         print('Status set_saturation: ', ret)
+ *         return ret
  */
   __pyx_v_ret = is_SetSaturation(__pyx_v_self->hCam, __pyx_v_saturation, __pyx_v_saturation);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":241
+  /* "src/cyueye.pyx":246
  *     def set_saturation(self, int saturation):
- *        ret = is_SetSaturation(self.hCam, saturation, saturation)
- *        return ret             # <<<<<<<<<<<<<<
+ *         ret = is_SetSaturation(self.hCam, saturation, saturation)
+ *         print('Status set_saturation: ', ret)             # <<<<<<<<<<<<<<
+ *         return ret
+ * 
+ */
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 246, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 246, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_kp_s_Status_set_saturation);
+  __Pyx_GIVEREF(__pyx_kp_s_Status_set_saturation);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_kp_s_Status_set_saturation);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 246, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "src/cyueye.pyx":247
+ *         ret = is_SetSaturation(self.hCam, saturation, saturation)
+ *         print('Status set_saturation: ', ret)
+ *         return ret             # <<<<<<<<<<<<<<
  * 
  *     def get_saturation(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_ret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":239
+  /* "src/cyueye.pyx":244
  *         return new_framrate, ret
  * 
  *     def set_saturation(self, int saturation):             # <<<<<<<<<<<<<<
- *        ret = is_SetSaturation(self.hCam, saturation, saturation)
- *        return ret
+ *         ret = is_SetSaturation(self.hCam, saturation, saturation)
+ *         print('Status set_saturation: ', ret)
  */
 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.set_saturation", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_AddTraceback("src.cyueye.Cam.set_saturation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4350,8 +4467,8 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_38set_satu
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":243
- *        return ret
+/* "src/cyueye.pyx":249
+ *         return ret
  * 
  *     def get_saturation(self):             # <<<<<<<<<<<<<<
  *         pass
@@ -4359,19 +4476,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_38set_satu
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_41get_saturation(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_41get_saturation(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_41get_saturation(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_41get_saturation(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_saturation (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_40get_saturation(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_40get_saturation(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_40get_saturation(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_40get_saturation(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_saturation", 0);
@@ -4383,7 +4500,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_40get_satu
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":247
+/* "src/cyueye.pyx":253
  * 
  *     #Horus help functions
  *     def read(self):             # <<<<<<<<<<<<<<
@@ -4392,19 +4509,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_40get_satu
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_43read(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_43read(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_43read(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_43read(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("read (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_42read(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_42read(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4412,14 +4529,14 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("read", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":248
+  /* "src/cyueye.pyx":254
  *     #Horus help functions
  *     def read(self):
  *         self.freeze_video()             # <<<<<<<<<<<<<<
  *         return True, np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_freeze_video); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_freeze_video); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -4432,16 +4549,16 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
     }
   }
   if (__pyx_t_3) {
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 248, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   } else {
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 248, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":249
+  /* "src/cyueye.pyx":255
  *     def read(self):
  *         self.freeze_video()
  *         return True, np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)             # <<<<<<<<<<<<<<
@@ -4449,9 +4566,9 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
  *     def grab(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 249, __pyx_L1_error)
+  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 249, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(Py_True);
   __Pyx_GIVEREF(Py_True);
@@ -4463,7 +4580,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":247
+  /* "src/cyueye.pyx":253
  * 
  *     #Horus help functions
  *     def read(self):             # <<<<<<<<<<<<<<
@@ -4476,7 +4593,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.read", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.read", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4484,7 +4601,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
   return __pyx_r;
 }
 
-/* "horus/engine/driver/cyueye/cyueye.pyx":251
+/* "src/cyueye.pyx":257
  *         return True, np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def grab(self):             # <<<<<<<<<<<<<<
@@ -4492,37 +4609,37 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_42read(str
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_45grab(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_45grab(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_45grab(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_45grab(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("grab (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_44grab(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_44grab(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_44grab(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_44grab(struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("grab", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":252
+  /* "src/cyueye.pyx":258
  * 
  *     def grab(self):
  *         return np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)             # <<<<<<<<<<<<<<
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 252, __pyx_L1_error)
+  __pyx_t_1 = PyArray_SimpleNewFromData(3, __pyx_v_self->dims, NPY_UINT8, __pyx_v_self->pcImgMem); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 258, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":251
+  /* "src/cyueye.pyx":257
  *         return True, np.PyArray_SimpleNewFromData(3, self.dims, np.NPY_UINT8, self.pcImgMem)
  * 
  *     def grab(self):             # <<<<<<<<<<<<<<
@@ -4532,7 +4649,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_44grab(str
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.grab", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.grab", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4547,19 +4664,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_44grab(str
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_47__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_47__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_47__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_47__reduce_cython__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_46__reduce_cython__(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_46__reduce_cython__(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_46__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_46__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4586,7 +4703,7 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_46__reduce
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -4601,19 +4718,19 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_46__reduce
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_49__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
-static PyObject *__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_49__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_49__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state); /*proto*/
+static PyObject *__pyx_pw_3src_6cyueye_3Cam_49__setstate_cython__(PyObject *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate_cython__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_48__setstate_cython__(((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
+  __pyx_r = __pyx_pf_3src_6cyueye_3Cam_48__setstate_cython__(((struct __pyx_obj_3src_6cyueye_Cam *)__pyx_v_self), ((PyObject *)__pyx_v___pyx_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_48__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_3src_6cyueye_3Cam_48__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_3src_6cyueye_Cam *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4640,14 +4757,14 @@ static PyObject *__pyx_pf_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_48__setsta
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("horus.engine.driver.cyueye.cyueye.Cam.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("src.cyueye.Cam.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":214
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -4694,7 +4811,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":220
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -4707,7 +4824,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":223
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":223
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -4716,7 +4833,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":224
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":224
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -4725,7 +4842,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":226
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":226
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -4734,7 +4851,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":228
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4744,7 +4861,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":229
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":229
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -4753,7 +4870,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_copy_shape = 1;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":228
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4763,7 +4880,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":231
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -4775,7 +4892,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4789,7 +4906,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":234
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":234
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -4800,7 +4917,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4809,7 +4926,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":235
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -4822,7 +4939,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 235, __pyx_L1_error)
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4831,7 +4948,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4845,7 +4962,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":238
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":238
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -4856,7 +4973,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L9_bool_binop_done:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4865,7 +4982,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":239
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -4878,7 +4995,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 239, __pyx_L1_error)
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4887,7 +5004,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":241
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":241
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -4896,7 +5013,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":242
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":242
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -4905,7 +5022,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":243
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -4915,7 +5032,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":246
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":246
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -4924,7 +5041,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":247
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":247
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -4933,7 +5050,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":248
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":248
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -4944,7 +5061,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":249
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":249
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -4953,7 +5070,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":250
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":250
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -4963,7 +5080,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":243
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -4973,7 +5090,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L11;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":252
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":252
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -4983,7 +5100,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":253
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":253
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -4994,7 +5111,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":254
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":254
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -5003,7 +5120,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":255
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -5012,7 +5129,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":256
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":256
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -5021,7 +5138,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":259
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":259
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -5030,7 +5147,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":260
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":260
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -5042,7 +5159,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":263
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":263
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -5051,7 +5168,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -5069,7 +5186,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":267
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":267
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -5082,7 +5199,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_v_info->obj);
     __pyx_v_info->obj = Py_None;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":265
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -5092,7 +5209,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L14;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":270
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -5108,7 +5225,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -5118,7 +5235,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":273
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":273
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -5128,7 +5245,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5148,7 +5265,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":275
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":275
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -5165,7 +5282,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L19_bool_binop_done:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5174,7 +5291,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (__pyx_t_1) {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":276
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -5187,7 +5304,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 276, __pyx_L1_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5196,7 +5313,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":277
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":277
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -5208,7 +5325,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"b");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":278
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -5219,7 +5336,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"B");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":279
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":279
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -5230,7 +5347,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"h");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":280
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -5241,7 +5358,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"H");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":281
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":281
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -5252,7 +5369,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"i");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":282
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -5263,7 +5380,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"I");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":283
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -5274,7 +5391,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"l");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":284
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -5285,7 +5402,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"L");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":285
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -5296,7 +5413,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"q");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -5307,7 +5424,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Q");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -5318,7 +5435,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"f");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":288
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -5329,7 +5446,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"d");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":289
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":289
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -5340,7 +5457,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"g");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":290
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -5351,7 +5468,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zf");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":291
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -5362,7 +5479,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zd");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":292
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -5373,7 +5490,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zg");
       break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":293
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":293
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -5385,7 +5502,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":295
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":295
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -5411,7 +5528,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":296
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":296
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -5420,7 +5537,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":297
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":297
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -5430,7 +5547,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -5439,7 +5556,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":299
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":299
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -5449,7 +5566,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":300
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":300
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -5458,7 +5575,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":301
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":301
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -5467,7 +5584,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":302
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -5477,7 +5594,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == ((char *)NULL))) __PYX_ERR(2, 302, __pyx_L1_error)
     __pyx_v_f = __pyx_t_7;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":305
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -5487,7 +5604,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":214
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -5519,7 +5636,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":307
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -5543,7 +5660,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":308
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -5553,7 +5670,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":309
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":309
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -5562,7 +5679,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":308
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -5571,7 +5688,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":310
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -5581,7 +5698,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":311
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -5590,7 +5707,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":310
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -5599,7 +5716,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":307
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -5611,7 +5728,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":788
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5625,7 +5742,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":789
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":789
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -5639,7 +5756,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":788
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5658,7 +5775,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5672,7 +5789,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":792
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":792
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -5686,7 +5803,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":791
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5705,7 +5822,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5719,7 +5836,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":795
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -5733,7 +5850,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5752,7 +5869,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":797
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5766,7 +5883,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":798
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":798
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -5780,7 +5897,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":797
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5799,7 +5916,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5813,7 +5930,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":801
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":801
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -5827,7 +5944,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":800
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5846,7 +5963,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5860,7 +5977,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":804
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5870,7 +5987,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":805
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":805
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -5882,7 +5999,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":804
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5891,7 +6008,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":807
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":807
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -5905,7 +6022,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5920,7 +6037,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -5949,7 +6066,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":814
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":814
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -5958,7 +6075,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":815
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":815
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -5967,7 +6084,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":818
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -5990,7 +6107,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":819
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":819
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -6007,7 +6124,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":820
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":820
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -6046,7 +6163,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -6063,7 +6180,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -6076,7 +6193,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 823, __pyx_L1_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -6085,7 +6202,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6105,7 +6222,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":826
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -6122,7 +6239,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6131,7 +6248,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":827
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -6144,7 +6261,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 827, __pyx_L1_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -6153,7 +6270,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -6169,7 +6286,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":838
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":838
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -6178,7 +6295,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":839
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":839
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -6187,7 +6304,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":840
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":840
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -6198,7 +6315,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":842
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":842
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -6208,7 +6325,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":844
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -6218,7 +6335,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":845
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":845
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -6230,7 +6347,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":846
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -6240,7 +6357,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":847
+        /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -6253,7 +6370,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(2, 847, __pyx_L1_error)
 
-        /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":846
+        /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -6262,7 +6379,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":850
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":850
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -6280,7 +6397,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":851
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":851
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -6298,7 +6415,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":852
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":852
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -6316,7 +6433,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":853
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":853
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -6334,7 +6451,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":854
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":854
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -6352,7 +6469,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":855
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -6370,7 +6487,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":856
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -6388,7 +6505,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":857
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":857
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -6406,7 +6523,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":858
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -6424,7 +6541,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":859
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":859
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -6442,7 +6559,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":860
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -6460,7 +6577,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":861
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":861
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -6478,7 +6595,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":862
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":862
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -6496,7 +6613,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":863
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":863
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -6516,7 +6633,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":864
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":864
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -6536,7 +6653,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":865
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":865
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -6556,7 +6673,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":866
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":866
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -6574,7 +6691,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":868
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":868
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -6598,7 +6715,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":869
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":869
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -6607,7 +6724,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":844
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -6617,7 +6734,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":873
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":873
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -6630,7 +6747,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":818
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -6640,7 +6757,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":874
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":874
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -6650,7 +6767,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":809
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -6675,7 +6792,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":990
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6690,7 +6807,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -6701,7 +6818,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":993
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":993
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -6710,7 +6827,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     __pyx_v_baseptr = NULL;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -6720,7 +6837,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
     goto __pyx_L3;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":995
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":995
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -6730,7 +6847,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   /*else*/ {
     Py_INCREF(__pyx_v_base);
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":996
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":996
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -6741,7 +6858,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":997
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -6750,7 +6867,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":998
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":998
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -6759,7 +6876,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":990
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6771,7 +6888,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1000
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6785,7 +6902,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -6795,7 +6912,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1002
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1002
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -6807,7 +6924,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None;
     goto __pyx_L0;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -6816,7 +6933,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1004
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1004
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -6830,7 +6947,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1000
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6845,7 +6962,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1009
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6866,7 +6983,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6882,7 +6999,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1011
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1011
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -6891,7 +7008,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1011, __pyx_L3_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6905,7 +7022,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1012
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1012
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6920,7 +7037,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1013
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -6936,7 +7053,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6951,7 +7068,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1009
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6974,7 +7091,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1015
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -6995,7 +7112,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7011,7 +7128,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1017
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1017
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -7020,7 +7137,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1017, __pyx_L3_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7034,7 +7151,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1018
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1018
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -7049,7 +7166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1019
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7065,7 +7182,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7080,7 +7197,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1015
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -7103,7 +7220,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
+/* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -7124,7 +7241,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7140,7 +7257,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1023
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1023
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -7149,7 +7266,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1023, __pyx_L3_error)
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7163,7 +7280,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1024
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1024
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -7177,7 +7294,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1025
+      /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7191,7 +7308,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
+    /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7206,7 +7323,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -7229,8 +7346,8 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-static PyObject *__pyx_tp_new_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *p;
+static PyObject *__pyx_tp_new_3src_6cyueye_Cam(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_3src_6cyueye_Cam *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -7238,18 +7355,18 @@ static PyObject *__pyx_tp_new_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyTypeO
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)o);
+  p = ((struct __pyx_obj_3src_6cyueye_Cam *)o);
   p->displaymode = ((PyObject*)Py_None); Py_INCREF(Py_None);
   p->colormode = ((PyObject*)Py_None); Py_INCREF(Py_None);
-  if (unlikely(__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_1__cinit__(o, a, k) < 0)) goto bad;
+  if (unlikely(__pyx_pw_3src_6cyueye_3Cam_1__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
   Py_DECREF(o); o = 0;
   return NULL;
 }
 
-static void __pyx_tp_dealloc_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyObject *o) {
-  struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *p = (struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam *)o;
+static void __pyx_tp_dealloc_3src_6cyueye_Cam(PyObject *o) {
+  struct __pyx_obj_3src_6cyueye_Cam *p = (struct __pyx_obj_3src_6cyueye_Cam *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && (!PyType_IS_GC(Py_TYPE(o)) || !_PyGC_FINALIZED(o))) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -7259,7 +7376,7 @@ static void __pyx_tp_dealloc_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyObject
     PyObject *etype, *eval, *etb;
     PyErr_Fetch(&etype, &eval, &etb);
     ++Py_REFCNT(o);
-    __pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_3__dealloc__(o);
+    __pyx_pw_3src_6cyueye_3Cam_3__dealloc__(o);
     --Py_REFCNT(o);
     PyErr_Restore(etype, eval, etb);
   }
@@ -7268,39 +7385,39 @@ static void __pyx_tp_dealloc_5horus_6engine_6driver_6cyueye_6cyueye_Cam(PyObject
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static PyMethodDef __pyx_methods_5horus_6engine_6driver_6cyueye_6cyueye_Cam[] = {
-  {"_check_deamon", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_5_check_deamon, METH_NOARGS, 0},
-  {"_init_camera", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_7_init_camera, METH_NOARGS, 0},
-  {"exit_camera", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_9exit_camera, METH_NOARGS, 0},
-  {"set_display_mode", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_11set_display_mode, METH_O, 0},
-  {"set_color_mode", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_13set_color_mode, METH_O, 0},
-  {"set_format", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_15set_format, METH_O, 0},
-  {"get_supported_formats", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_17get_supported_formats, METH_NOARGS, 0},
-  {"alloc_image_mem", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_19alloc_image_mem, METH_NOARGS, 0},
-  {"free_image_mem", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_21free_image_mem, METH_NOARGS, 0},
-  {"set_image_mem", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_23set_image_mem, METH_NOARGS, 0},
-  {"freeze_video", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_25freeze_video, METH_NOARGS, 0},
-  {"capture_video", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_27capture_video, METH_NOARGS, 0},
-  {"freeze_to_numpy", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_29freeze_to_numpy, METH_NOARGS, 0},
-  {"video_to_numpy", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_31video_to_numpy, METH_NOARGS, 0},
-  {"set_exposure", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_33set_exposure, METH_O, 0},
-  {"get_exposure", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_35get_exposure, METH_NOARGS, 0},
-  {"set_framerate", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_37set_framerate, METH_O, 0},
-  {"set_saturation", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_39set_saturation, METH_O, 0},
-  {"get_saturation", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_41get_saturation, METH_NOARGS, 0},
-  {"read", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_43read, METH_NOARGS, 0},
-  {"grab", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_45grab, METH_NOARGS, 0},
-  {"__reduce_cython__", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_47__reduce_cython__, METH_NOARGS, 0},
-  {"__setstate_cython__", (PyCFunction)__pyx_pw_5horus_6engine_6driver_6cyueye_6cyueye_3Cam_49__setstate_cython__, METH_O, 0},
+static PyMethodDef __pyx_methods_3src_6cyueye_Cam[] = {
+  {"_check_deamon", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_5_check_deamon, METH_NOARGS, 0},
+  {"_init_camera", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_7_init_camera, METH_NOARGS, 0},
+  {"exit_camera", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_9exit_camera, METH_NOARGS, 0},
+  {"set_display_mode", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_11set_display_mode, METH_O, 0},
+  {"set_color_mode", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_13set_color_mode, METH_O, 0},
+  {"set_format", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_15set_format, METH_O, 0},
+  {"get_supported_formats", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_17get_supported_formats, METH_NOARGS, 0},
+  {"alloc_image_mem", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_19alloc_image_mem, METH_NOARGS, 0},
+  {"free_image_mem", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_21free_image_mem, METH_NOARGS, 0},
+  {"set_image_mem", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_23set_image_mem, METH_NOARGS, 0},
+  {"freeze_video", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_25freeze_video, METH_NOARGS, 0},
+  {"capture_video", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_27capture_video, METH_NOARGS, 0},
+  {"freeze_to_numpy", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_29freeze_to_numpy, METH_NOARGS, 0},
+  {"video_to_numpy", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_31video_to_numpy, METH_NOARGS, 0},
+  {"set_exposure", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_33set_exposure, METH_O, 0},
+  {"get_exposure", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_35get_exposure, METH_NOARGS, 0},
+  {"set_framerate", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_37set_framerate, METH_O, 0},
+  {"set_saturation", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_39set_saturation, METH_O, 0},
+  {"get_saturation", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_41get_saturation, METH_NOARGS, 0},
+  {"read", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_43read, METH_NOARGS, 0},
+  {"grab", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_45grab, METH_NOARGS, 0},
+  {"__reduce_cython__", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_47__reduce_cython__, METH_NOARGS, 0},
+  {"__setstate_cython__", (PyCFunction)__pyx_pw_3src_6cyueye_3Cam_49__setstate_cython__, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam = {
+static PyTypeObject __pyx_type_3src_6cyueye_Cam = {
   PyVarObject_HEAD_INIT(0, 0)
-  "horus.engine.driver.cyueye.cyueye.Cam", /*tp_name*/
-  sizeof(struct __pyx_obj_5horus_6engine_6driver_6cyueye_6cyueye_Cam), /*tp_basicsize*/
+  "src.cyueye.Cam", /*tp_name*/
+  sizeof(struct __pyx_obj_3src_6cyueye_Cam), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_5horus_6engine_6driver_6cyueye_6cyueye_Cam, /*tp_dealloc*/
+  __pyx_tp_dealloc_3src_6cyueye_Cam, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -7328,7 +7445,7 @@ static PyTypeObject __pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam = {
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_5horus_6engine_6driver_6cyueye_6cyueye_Cam, /*tp_methods*/
+  __pyx_methods_3src_6cyueye_Cam, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -7338,7 +7455,7 @@ static PyTypeObject __pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_5horus_6engine_6driver_6cyueye_6cyueye_Cam, /*tp_new*/
+  __pyx_tp_new_3src_6cyueye_Cam, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -7403,8 +7520,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Status_init_Camera, __pyx_k_Status_init_Camera, sizeof(__pyx_k_Status_init_Camera), 0, 0, 1, 0},
   {&__pyx_kp_s_Status_set_color_mode, __pyx_k_Status_set_color_mode, sizeof(__pyx_k_Status_set_color_mode), 0, 0, 1, 0},
   {&__pyx_kp_s_Status_set_display_moded, __pyx_k_Status_set_display_moded, sizeof(__pyx_k_Status_set_display_moded), 0, 0, 1, 0},
+  {&__pyx_kp_s_Status_set_exposure, __pyx_k_Status_set_exposure, sizeof(__pyx_k_Status_set_exposure), 0, 0, 1, 0},
   {&__pyx_kp_s_Status_set_format, __pyx_k_Status_set_format, sizeof(__pyx_k_Status_set_format), 0, 0, 1, 0},
+  {&__pyx_kp_s_Status_set_framerate, __pyx_k_Status_set_framerate, sizeof(__pyx_k_Status_set_framerate), 0, 0, 1, 0},
   {&__pyx_kp_s_Status_set_image_mem, __pyx_k_Status_set_image_mem, sizeof(__pyx_k_Status_set_image_mem), 0, 0, 1, 0},
+  {&__pyx_kp_s_Status_set_saturation, __pyx_k_Status_set_saturation, sizeof(__pyx_k_Status_set_saturation), 0, 0, 1, 0},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_alloc_image_mem, __pyx_k_alloc_image_mem, sizeof(__pyx_k_alloc_image_mem), 0, 0, 1, 1},
@@ -7424,7 +7544,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_get_supported_formats, __pyx_k_get_supported_formats, sizeof(__pyx_k_get_supported_formats), 0, 0, 1, 1},
   {&__pyx_n_s_getstate, __pyx_k_getstate, sizeof(__pyx_k_getstate), 0, 0, 1, 1},
   {&__pyx_n_s_hcam, __pyx_k_hcam, sizeof(__pyx_k_hcam), 0, 0, 1, 1},
-  {&__pyx_n_s_horus_engine_driver_cyueye_cyuey, __pyx_k_horus_engine_driver_cyueye_cyuey, sizeof(__pyx_k_horus_engine_driver_cyueye_cyuey), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_init, __pyx_k_init, sizeof(__pyx_k_init), 0, 0, 1, 1},
   {&__pyx_n_s_init_camera, __pyx_k_init_camera, sizeof(__pyx_k_init_camera), 0, 0, 1, 1},
@@ -7458,6 +7577,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_set_image_mem, __pyx_k_set_image_mem, sizeof(__pyx_k_set_image_mem), 0, 0, 1, 1},
   {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
   {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
+  {&__pyx_n_s_src_cyueye, __pyx_k_src_cyueye, sizeof(__pyx_k_src_cyueye), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_ueye_camera_mode, __pyx_k_ueye_camera_mode, sizeof(__pyx_k_ueye_camera_mode), 0, 0, 1, 1},
   {&__pyx_kp_u_unknown_dtype_code_in_numpy_pxd, __pyx_k_unknown_dtype_code_in_numpy_pxd, sizeof(__pyx_k_unknown_dtype_code_in_numpy_pxd), 0, 1, 0, 0},
@@ -7479,7 +7599,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":110
+  /* "src/cyueye.pyx":110
  *         self.displaymode=displaymode
  *         self.colormode=colormode
  *         self.set_display_mode("dib")             # <<<<<<<<<<<<<<
@@ -7490,7 +7610,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":145
+  /* "src/cyueye.pyx":145
  * 
  *         class color_mode_options():
  *             def __init__(self, ueye_camera_mode, bitspixel):             # <<<<<<<<<<<<<<
@@ -7521,7 +7641,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":235
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -7532,7 +7652,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":239
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -7543,7 +7663,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -7554,7 +7674,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -7565,7 +7685,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -7576,7 +7696,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -7587,7 +7707,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1013
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -7598,7 +7718,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1019
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7609,7 +7729,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1025
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7751,14 +7871,14 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_horus__engine__driver__cyueye__cyueye) {
+  if (__pyx_module_is_main_src__cyueye) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 2, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "horus.engine.driver.cyueye.cyueye")) {
-      if (unlikely(PyDict_SetItemString(modules, "horus.engine.driver.cyueye.cyueye", __pyx_m) < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "src.cyueye")) {
+      if (unlikely(PyDict_SetItemString(modules, "src.cyueye", __pyx_m) < 0)) __PYX_ERR(0, 2, __pyx_L1_error)
     }
   }
   #endif
@@ -7770,11 +7890,11 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
-  __pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam.tp_print = 0;
-  if (PyObject_SetAttrString(__pyx_m, "Cam", (PyObject *)&__pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
-  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
-  __pyx_ptype_5horus_6engine_6driver_6cyueye_6cyueye_Cam = &__pyx_type_5horus_6engine_6driver_6cyueye_6cyueye_Cam;
+  if (PyType_Ready(&__pyx_type_3src_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
+  __pyx_type_3src_6cyueye_Cam.tp_print = 0;
+  if (PyObject_SetAttrString(__pyx_m, "Cam", (PyObject *)&__pyx_type_3src_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject*)&__pyx_type_3src_6cyueye_Cam) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
+  __pyx_ptype_3src_6cyueye_Cam = &__pyx_type_3src_6cyueye_Cam;
   /*--- Type import code ---*/
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
   #if CYTHON_COMPILING_IN_PYPY
@@ -7795,7 +7915,7 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   #endif
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":4
+  /* "src/cyueye.pyx":4
  * from __future__ import print_function
  * from libc.stdlib cimport malloc, free
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -7807,7 +7927,7 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "horus/engine/driver/cyueye/cyueye.pyx":2
+  /* "src/cyueye.pyx":2
  * 
  * from __future__ import print_function             # <<<<<<<<<<<<<<
  * from libc.stdlib cimport malloc, free
@@ -7818,7 +7938,7 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "../../../../../usr/local/lib/python2.7/dist-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -7833,11 +7953,11 @@ static int __pyx_pymod_exec_cyueye(PyObject *__pyx_pyinit_module)
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init horus.engine.driver.cyueye.cyueye", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init src.cyueye", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init horus.engine.driver.cyueye.cyueye");
+    PyErr_SetString(PyExc_ImportError, "init src.cyueye");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
